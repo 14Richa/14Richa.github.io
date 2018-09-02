@@ -21,6 +21,7 @@ sass:
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jemoji
   # - jemoji #Uncomment this to allow emoji in your post
 
 # Permalinks
