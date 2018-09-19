@@ -1,13 +1,13 @@
 # Site settings
-title:          Tale
+title:          geekGirl
 description:    "Minimal Jekyll theme for storytellers"
-url:            "https://chesterhow.github.io"
+url:            "https://14richa.github.io"
 
 # Author
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:         Richa Sharma
+  url:          
+  email:        richasharma1496@gmail.com
 
 # Build settings
 markdown:       kramdown
