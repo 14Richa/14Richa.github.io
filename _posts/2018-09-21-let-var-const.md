@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Let, Var and Const"
+title:  "Var, Let and Const"
 author: "Richa"
 ---
 
