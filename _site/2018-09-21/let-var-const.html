@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <title>
+    
+      Let, Var and Const &middot; geekGirl
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+
+  <!-- RSS -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="geekGirl" />
+</head>
+
+
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="/">
+          <h2 class="nav-title">geekGirl</h2>
+        </a>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/">Posts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="post">
+  <div class="post-info">
+    <span>Written by</span>
+    
+        Richa
+    
+
+    
+      <br>
+      <span>on&nbsp;</span><time datetime="2018-09-21 00:00:00 +0530">September 21, 2018</time>
+    
+  </div>
+
+  <h1 class="post-title">Let, Var and Const</h1>
+  <div class="post-line"></div>
+
+  <p>This blog consist the scope and use of <code class="highlighter-rouge">var</code>, <code class="highlighter-rouge">let</code> and <code class="highlighter-rouge">const</code> in Javascript. 
+Three of the above methods are used to define a variable in Javascript but three of them hold a different properties and scope which vary their usage in a function.</p>
+
+<h1 id="scope-of-var">Scope of Var</h1>
+
+<p>Scope means in simple language that where the particular variables can be used.</p>
+
+<p><code class="highlighter-rouge">Var</code> has a global scope.
+ That means that any variable that is declared with var outside a function block can be used in the whole function.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// Example</span>
+<span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+
+<span class="k">if</span> <span class="p">(</span><span class="nx">x</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span><span class="p">);</span>
+  <span class="c1">//Prints 2</span>
+<span class="p">}</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">x</span><span class="p">);</span>
+<span class="c1">//Prints 2</span></code></pre></figure>
+
+<h1 id="scope-of-let">Scope Of Let</h1>
+
+<p>Anything within <code class="highlighter-rouge">{}</code> is a block. 
+So a variable declared in a block with the <code class="highlighter-rouge">let</code> is only used within that block.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// Example</span>
+<span class="kd">let</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="nx">If</span><span class="p">(</span><span class="kc">true</span><span class="p">){</span>
+	<span class="kd">let</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+	<span class="kd">let</span> <span class="nx">b</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>
+	<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span> <span class="c1">//Prints 5</span>
+	<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">b</span><span class="p">);</span> <span class="c1">//Prints 20</span>
+<span class="p">}</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span> <span class="c1">//Prints 10</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">b</span><span class="p">);</span> <span class="c1">//Undefined</span></code></pre></figure>
+
+<h1 id="scope-of-const">Scope of Const</h1>
+
+<p>Variables declared with the <code class="highlighter-rouge">const</code> maintain a fixed values. 
+<code class="highlighter-rouge">const</code>  declarations share same similarities as let declarations.</p>
+
+<p>Like <code class="highlighter-rouge">let</code> declarations, <code class="highlighter-rouge">const</code> declarations can only be used within the block it is declared.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// Example</span>
+<span class="kd">var</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+<span class="c1">// Here x value is 10</span>
+<span class="p">{</span> 
+    <span class="kd">const</span> <span class="nx">x</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="c1">// Here x value is 2</span>
+<span class="p">}</span>
+<span class="c1">// Here x value is 10</span></code></pre></figure>
+
+
+
+</div>
+
+<div class="pagination">
+  
+  
+    <a href="/2018-09-04/new-post" class="right arrow">&#8594;</a>
+  
+
+  <a href="#" class="top">Top</a>
+</div>
+
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time datetime="2018-09-22 22:10:55 +0530">2018</time> Richa Sharma. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+      </span>
+    </footer>
+  </body>
+</html>

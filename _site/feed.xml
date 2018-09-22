@@ -1,4 +1,57 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-20T00:02:22+05:30</updated><id>http://localhost:4000/</id><title type="html">geekGirl</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Richa Sharma</name><email>richasharma1496@gmail.com</email></author><entry><title type="html">My Odyssey with Odin</title><link href="http://localhost:4000/2018-09-04/new-post" rel="alternate" type="text/html" title="My Odyssey with Odin" /><published>2018-09-04T00:00:00+05:30</published><updated>2018-09-04T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-04/new-post</id><content type="html" xml:base="http://localhost:4000/2018-09-04/new-post">&lt;p&gt;In my journey in Webdev I realized that I need to consolidate my learnings from various sources and keep them in an organized manner for future reference.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-22T22:10:55+05:30</updated><id>http://localhost:4000/</id><title type="html">geekGirl</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Richa Sharma</name><email>richasharma1496@gmail.com</email></author><entry><title type="html">Let, Var and Const</title><link href="http://localhost:4000/2018-09-21/let-var-const" rel="alternate" type="text/html" title="Let, Var and Const" /><published>2018-09-21T00:00:00+05:30</published><updated>2018-09-21T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-21/let-var-const</id><content type="html" xml:base="http://localhost:4000/2018-09-21/let-var-const">&lt;p&gt;This blog consist the scope and use of &lt;code class=&quot;highlighter-rouge&quot;&gt;var&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;const&lt;/code&gt; in Javascript. 
+Three of the above methods are used to define a variable in Javascript but three of them hold a different properties and scope which vary their usage in a function.&lt;/p&gt;
+
+&lt;h1 id=&quot;scope-of-var&quot;&gt;Scope of Var&lt;/h1&gt;
+
+&lt;p&gt;Scope means in simple language that where the particular variables can be used.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Var&lt;/code&gt; has a global scope.
+ That means that any variable that is declared with var outside a function block can be used in the whole function.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//Prints 2&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;//Prints 2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;scope-of-let&quot;&gt;Scope Of Let&lt;/h1&gt;
+
+&lt;p&gt;Anything within &lt;code class=&quot;highlighter-rouge&quot;&gt;{}&lt;/code&gt; is a block. 
+So a variable declared in a block with the &lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt; is only used within that block.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;If&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Prints 5&lt;/span&gt;
+	&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Prints 20&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Prints 10&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Undefined&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;scope-of-const&quot;&gt;Scope of Const&lt;/h1&gt;
+
+&lt;p&gt;Variables declared with the &lt;code class=&quot;highlighter-rouge&quot;&gt;const&lt;/code&gt; maintain a fixed values. 
+&lt;code class=&quot;highlighter-rouge&quot;&gt;const&lt;/code&gt;  declarations share same similarities as let declarations.&lt;/p&gt;
+
+&lt;p&gt;Like &lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt; declarations, &lt;code class=&quot;highlighter-rouge&quot;&gt;const&lt;/code&gt; declarations can only be used within the block it is declared.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Here x value is 10&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
+    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Here x value is 2&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// Here x value is 10&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Richa</name></author><summary type="html">This blog consist the scope and use of var, let and const in Javascript. Three of the above methods are used to define a variable in Javascript but three of them hold a different properties and scope which vary their usage in a function.</summary></entry><entry><title type="html">My Odyssey with Odin</title><link href="http://localhost:4000/2018-09-04/new-post" rel="alternate" type="text/html" title="My Odyssey with Odin" /><published>2018-09-04T00:00:00+05:30</published><updated>2018-09-04T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-04/new-post</id><content type="html" xml:base="http://localhost:4000/2018-09-04/new-post">&lt;p&gt;In my journey in Webdev I realized that I need to consolidate my learnings from various sources and keep them in an organized manner for future reference.&lt;/p&gt;
 
 &lt;p&gt;Therefore I start this series of short posts compiling my understanding of different concepts in HTML, CSS, JS and other front-end components.&lt;/p&gt;
 
