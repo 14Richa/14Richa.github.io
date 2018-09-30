@@ -4,10 +4,7 @@ title:  "Passing value or reference??"
 author: "Richa"
 ---
 
-A little introduction on pass by value v/s pass by reference jsgcbjkx 
-dbcjdjbcduil 
-bdhcjdbiu
-dbjckbdiu
+A little introduction on pass by value v/s pass by reference.
 
 
 # Pass By Value
