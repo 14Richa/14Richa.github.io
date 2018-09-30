@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <title>
+    
+      Passing value or reference?? &middot; geekGirl
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+
+  <!-- RSS -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="geekGirl" />
+</head>
+
+
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="/">
+          <h2 class="nav-title">geekGirl</h2>
+        </a>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/">Posts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="post">
+  <div class="post-info">
+    <span>Written by</span>
+    
+        Richa
+    
+
+    
+      <br>
+      <span>on&nbsp;</span><time datetime="2018-09-30 00:00:00 +0530">September 30, 2018</time>
+    
+  </div>
+
+  <h1 class="post-title">Passing value or reference??</h1>
+  <div class="post-line"></div>
+
+  <h1 id="pass-by-value">Pass By Value</h1>
+
+<p>In Pass by Value, functions are called directly by passing the value of the variable in the form of argument.</p>
+
+<p>If programmer changes the argument inside the function it doesn’t affect the variable which is globally passes or is outside the function.</p>
+
+<p>Javascript often pass by value,  so if someone changes the value of the variable; the basic or primary value will not get changed (String or number).</p>
+
+<p>Example:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">idea</span><span class="p">(</span><span class="nx">ideaOne</span><span class="p">,</span> <span class="nx">ideaTwo</span><span class="p">)</span> <span class="p">{</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span> <span class="p">(</span><span class="s2">"Inside the idea function"</span><span class="p">);</span> <span class="c1">// Inside the idea function</span>
+<span class="nx">ideaOne</span> <span class="o">=</span> <span class="mi">340</span><span class="p">;</span>
+<span class="nx">ideaTwo</span> <span class="o">=</span> <span class="mi">140</span><span class="p">;</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"ideaOne ="</span> <span class="o">+</span> <span class="nx">ideaOne</span> <span class="o">+</span><span class="s2">"ideaTwo ="</span> <span class="o">+</span><span class="nx">ideaTwo</span><span class="p">);</span> <span class="c1">// ideaOne = 340 ideaTwo = 140</span>
+<span class="p">}</span>
+
+<span class="kd">let</span> <span class="nx">ideaOne</span> <span class="o">=</span> <span class="mi">300</span><span class="p">;</span>
+<span class="kd">let</span> <span class="nx">ideaTwo</span> <span class="o">=</span> <span class="mi">200</span><span class="p">;</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"ideaOne ="</span> <span class="o">+</span><span class="nx">ideaOne</span> <span class="o">+</span> <span class="s2">"ideaTwo ="</span> <span class="o">+</span><span class="nx">ideaTwo</span><span class="p">);</span> <span class="c1">// ideaOne = 300; ideaTwo = 200</span>
+
+<span class="nx">idea</span><span class="p">(</span><span class="nx">ideaOne</span><span class="p">,</span> <span class="nx">ideaTwo</span><span class="p">);</span> 
+<span class="c1">// Inside the idea function</span>
+<span class="c1">// ideaOne = 340 ideaTwo = 140</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"ideaOne ="</span> <span class="o">+</span><span class="nx">ideaOne</span> <span class="o">+</span> <span class="s2">"ideaTwo ="</span> <span class="o">+</span><span class="nx">ideaTwo</span><span class="p">);</span> <span class="c1">// ideaOne = 300; ideaTwo = 200</span></code></pre></figure>
+
+<h1 id="pass-by-reference">Pass By Reference</h1>
+
+<p>Basics data types in Javascript like number, string and boolean  pass by value whereas data types like objects and arrays are pass by reference.</p>
+
+<p>In Pass by Reference, functions are called by directly passing the address of the variable as the argument. Changing the argument inside the function affects the variable which is passed from outside the function.</p>
+
+<p>Example:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">idea</span><span class="p">(</span><span class="nx">ideaObj</span><span class="p">)</span> <span class="p">{</span>
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Inside the idea function"</span><span class="p">);</span> <span class="c1">// Inside the idea function</span>
+<span class="nx">ideaObj</span><span class="p">.</span><span class="nx">x</span> <span class="o">=</span> <span class="mi">250</span><span class="p">;</span> 
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">ideaObj</span><span class="p">);</span> <span class="c1">// { x : 250 }</span>
+<span class="p">}</span>
+
+<span class="kd">let</span> <span class="nx">ideaObj</span> <span class="o">=</span> <span class="p">{</span> <span class="na">x</span> <span class="p">:</span> <span class="mi">200</span> <span class="p">};</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">ideaObj</span><span class="p">);</span> <span class="c1">// { x : 200 }</span>
+
+<span class="nx">idea</span><span class="p">(</span><span class="nx">ideaObj</span><span class="p">)</span>
+
+    <span class="c1">// Inside the idea function</span>
+   <span class="c1">// { x : 250 }</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">ideaObj</span><span class="p">);</span> <span class="c1">// { x : 250 };</span></code></pre></figure>
+
+
+
+</div>
+
+<div class="pagination">
+  
+  
+    <a href="/2018-09-29/landing-pages" class="right arrow">&#8594;</a>
+  
+
+  <a href="#" class="top">Top</a>
+</div>
+
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time datetime="2018-09-30 14:22:46 +0530">2018</time> Richa Sharma. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+      </span>
+    </footer>
+  </body>
+</html>
