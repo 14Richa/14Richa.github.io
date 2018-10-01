@@ -1,7 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-09-30T14:36:15+05:30</updated><id>http://localhost:4000/</id><title type="html">geekGirl</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Richa Sharma</name><email>richasharma1496@gmail.com</email></author><entry><title type="html">Passing value or reference??</title><link href="http://localhost:4000/2018-09-30/pass-by-valandref" rel="alternate" type="text/html" title="Passing value or reference??" /><published>2018-09-30T00:00:00+05:30</published><updated>2018-09-30T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-30/pass-by-valandref</id><content type="html" xml:base="http://localhost:4000/2018-09-30/pass-by-valandref">&lt;p&gt;A little introduction on pass by value v/s pass by reference jsgcbjkx 
-dbcjdjbcduil 
-bdhcjdbiu
-dbjckbdiu&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-01T22:26:40+05:30</updated><id>http://localhost:4000/</id><title type="html">geekGirl</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Richa Sharma</name><email>richasharma1496@gmail.com</email></author><entry><title type="html">Git has been Got</title><link href="http://localhost:4000/2018-10-01/git" rel="alternate" type="text/html" title="Git has been Got" /><published>2018-10-01T00:00:00+05:30</published><updated>2018-10-01T00:00:00+05:30</updated><id>http://localhost:4000/2018-10-01/git</id><content type="html" xml:base="http://localhost:4000/2018-10-01/git">&lt;p&gt;As we all know, GIT is a tracking system of codes for web developer or software engineer made by the creator of Linux. It includes multiple directories that continuously changes as codes are added throughout website development. Git also tracks the performance of the codes on the stored data. To use GIT we have to use the terminal.
+So if you are new to git, too follow the following few steps below to get familiar in  making changes to the code base, making a pull request, and merging code into the master branch.&lt;/p&gt;
+
+&lt;h2 id=&quot;step---1--install-git-and-create-a-github-account&quot;&gt;STEP - 1 : Install git and create a GitHub account&lt;/h2&gt;
+
+&lt;p&gt;The first thing anyone who is beginning GIT has to install git and create a free GitHub account.&lt;/p&gt;
+
+&lt;h2 id=&quot;step---2--create-a-local-git-repository&quot;&gt;STEP - 2 : Create a local GIT repository&lt;/h2&gt;
+
+&lt;p&gt;When creating a new project on your  machine using git, you’ll first have to create a new repository.&lt;/p&gt;
+
+&lt;p&gt;Now, open a terminal and move to where you want to place the project on your local machine using the &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; (change directory) command. Then, using &lt;code class=&quot;highlighter-rouge&quot;&gt;git init&lt;/code&gt; command  initialize a git repository in the main folder or the root folder.&lt;/p&gt;
+
+&lt;h2 id=&quot;step---3--add-a-new-file-to-the-repository-or-modify-file-in-the-existing-folder-itself&quot;&gt;STEP - 3 : Add a new file to the repository or modify file in the existing folder itself&lt;/h2&gt;
+
+&lt;p&gt;Once you’ve added a file or modified files in a folder containing a git repository, GIT will notice that changes have been made inside the repository but it will not officially keep track of the file.&lt;/p&gt;
+
+&lt;p&gt;After creating the new file, you can use the &lt;code class=&quot;highlighter-rouge&quot;&gt;git status&lt;/code&gt; command to see which files is being modified or added.&lt;/p&gt;
+
+&lt;h2 id=&quot;step---4--add-a-file-to-git&quot;&gt;STEP - 4 : Add a file to GIT&lt;/h2&gt;
+
+&lt;p&gt;Add a file to GIT using the &lt;code class=&quot;highlighter-rouge&quot;&gt;git add&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;h2 id=&quot;step---5---create-a-commit&quot;&gt;STEP - 5 :  Create a commit&lt;/h2&gt;
+
+&lt;p&gt;It’s time to create first commit!!&lt;/p&gt;
+
+&lt;p&gt;Run the command  &lt;code class=&quot;highlighter-rouge&quot;&gt;git commit -m &quot; Your message. &quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;The message at the end of the commit should be something related to what you have done in the file or added some file. That makes the other web developer who see your commit understand your commit and code more clear.&lt;/p&gt;
+
+&lt;h2 id=&quot;step---6--push-all-the-changes-to-the-github-account&quot;&gt;STEP - 6 : Push all the changes to the GitHub Account&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin&lt;/code&gt; command will push changes from all local branches to the master branch.&lt;/p&gt;</content><author><name>Richa</name></author><summary type="html">As we all know, GIT is a tracking system of codes for web developer or software engineer made by the creator of Linux. It includes multiple directories that continuously changes as codes are added throughout website development. Git also tracks the performance of the codes on the stored data. To use GIT we have to use the terminal. So if you are new to git, too follow the following few steps below to get familiar in making changes to the code base, making a pull request, and merging code into the master branch.</summary></entry><entry><title type="html">Passing value or reference??</title><link href="http://localhost:4000/2018-09-30/pass-by-valandref" rel="alternate" type="text/html" title="Passing value or reference??" /><published>2018-09-30T00:00:00+05:30</published><updated>2018-09-30T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-30/pass-by-valandref</id><content type="html" xml:base="http://localhost:4000/2018-09-30/pass-by-valandref">&lt;p&gt;A little introduction on pass by value v/s pass by reference.&lt;/p&gt;
 
 &lt;h1 id=&quot;pass-by-value&quot;&gt;Pass By Value&lt;/h1&gt;
 
@@ -54,7 +84,28 @@ dbjckbdiu&lt;/p&gt;
     &lt;span class=&quot;c1&quot;&gt;// Inside the idea function&lt;/span&gt;
    &lt;span class=&quot;c1&quot;&gt;// { x : 250 }&lt;/span&gt;
 
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ideaObj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// { x : 250 };&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Richa</name></author><summary type="html">A little introduction on pass by value v/s pass by reference jsgcbjkx dbcjdjbcduil bdhcjdbiu dbjckbdiu</summary></entry><entry><title type="html">When developing landing pages</title><link href="http://localhost:4000/2018-09-29/landing-pages" rel="alternate" type="text/html" title="When developing landing pages" /><published>2018-09-29T00:00:00+05:30</published><updated>2018-09-29T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-29/landing-pages</id><content type="html" xml:base="http://localhost:4000/2018-09-29/landing-pages">&lt;p&gt;Somedays back I had to write a one-pager on essentials of building a landing page. It got me thinking on what is crux of the things one should take care of when developing a front-page of their website/business.&lt;/p&gt;
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ideaObj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// { x : 250 };&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Richa</name></author><summary type="html">A little introduction on pass by value v/s pass by reference.</summary></entry><entry><title type="html">Requirements when creating a User Defined objects</title><link href="http://localhost:4000/2018-09-30/new-keyword" rel="alternate" type="text/html" title="Requirements when creating a User Defined objects" /><published>2018-09-30T00:00:00+05:30</published><updated>2018-09-30T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-30/new%20keyword</id><content type="html" xml:base="http://localhost:4000/2018-09-30/new-keyword">&lt;p&gt;While creating a user-defined objects there are two steps which are required:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Defining the object type by writing a function.&lt;/li&gt;
+  &lt;li&gt;Creating an object with ‘new’ keyword.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To define an object type we have to create a function for the object type that focus on its name and properties.&lt;/p&gt;
+
+&lt;p&gt;The ‘new’ keyword creates a case of a user-defined object or  built-in object  that has a constructor function.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Scooter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;make&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;make&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;year&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scooter1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Scooter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Activa'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'XXX3'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1996&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;car1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 1996&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Richa</name></author><summary type="html">While creating a user-defined objects there are two steps which are required:</summary></entry><entry><title type="html">When developing landing pages</title><link href="http://localhost:4000/2018-09-29/landing-pages" rel="alternate" type="text/html" title="When developing landing pages" /><published>2018-09-29T00:00:00+05:30</published><updated>2018-09-29T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-29/landing-pages</id><content type="html" xml:base="http://localhost:4000/2018-09-29/landing-pages">&lt;p&gt;Somedays back I had to write a one-pager on essentials of building a landing page. It got me thinking on what is crux of the things one should take care of when developing a front-page of their website/business.&lt;/p&gt;
 
 &lt;h1 id=&quot;user-interface-and-user-experience&quot;&gt;User Interface and User Experience&lt;/h1&gt;
 

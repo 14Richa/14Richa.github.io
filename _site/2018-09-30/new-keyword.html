@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <title>
+    
+      Requirements when creating a User Defined objects &middot; geekGirl
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+
+  <!-- RSS -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="geekGirl" />
+</head>
+
+
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="/">
+          <h2 class="nav-title">geekGirl</h2>
+        </a>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/">Posts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="post">
+  <div class="post-info">
+    <span>Written by</span>
+    
+        Richa
+    
+
+    
+      <br>
+      <span>on&nbsp;</span><time datetime="2018-09-30 00:00:00 +0530">September 30, 2018</time>
+    
+  </div>
+
+  <h1 class="post-title">Requirements when creating a User Defined objects</h1>
+  <div class="post-line"></div>
+
+  <p>While creating a user-defined objects there are two steps which are required:</p>
+
+<ol>
+  <li>Defining the object type by writing a function.</li>
+  <li>Creating an object with ‘new’ keyword.</li>
+</ol>
+
+<p>To define an object type we have to create a function for the object type that focus on its name and properties.</p>
+
+<p>The ‘new’ keyword creates a case of a user-defined object or  built-in object  that has a constructor function.</p>
+
+<p>Example:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="kd">function</span> <span class="nx">Scooter</span><span class="p">(</span><span class="nx">make</span><span class="p">,</span> <span class="nx">model</span><span class="p">,</span> <span class="nx">year</span><span class="p">)</span> <span class="p">{</span>
+<span class="k">this</span><span class="p">.</span><span class="nx">make</span> <span class="o">=</span> <span class="nx">make</span><span class="p">;</span>
+<span class="k">this</span><span class="p">.</span><span class="nx">model</span> <span class="o">=</span> <span class="nx">model</span><span class="p">;</span>
+<span class="k">this</span><span class="p">.</span><span class="nx">year</span> <span class="o">=</span> <span class="nx">year</span><span class="p">;</span>
+<span class="p">}</span>
+
+<span class="kd">var</span> <span class="nx">scooter1</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Scooter</span><span class="p">(</span><span class="s1">'Activa'</span><span class="p">,</span> <span class="s1">'XXX3'</span><span class="p">,</span> <span class="mi">1996</span><span class="p">);</span>
+
+<span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">car1</span><span class="p">.</span><span class="nx">year</span><span class="p">);</span> <span class="c1">// 1996</span></code></pre></figure>
+
+
+
+</div>
+
+<div class="pagination">
+  
+    <a href="/2018-09-30/pass-by-valandref" class="left arrow">&#8592;</a>
+  
+  
+    <a href="/2018-09-29/landing-pages" class="right arrow">&#8594;</a>
+  
+
+  <a href="#" class="top">Top</a>
+</div>
+
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time datetime="2018-10-01 22:26:40 +0530">2018</time> Richa Sharma. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+      </span>
+    </footer>
+  </body>
+</html>
