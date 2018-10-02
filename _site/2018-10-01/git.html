@@ -92,6 +92,30 @@
 
 <p><code class="highlighter-rouge">git push origin</code> command will push changes from all local branches to the master branch.</p>
 
+<h2 id="concept-of-branching-in-git">Concept of Branching in GIT</h2>
+
+<p>Branches are used to develop features in a website far away from each other. The master branch is the “default” branch when developer create a repository. Developer uses other branches for the development and merge them back to the master branch upon completion.</p>
+
+<h3 id="main-commands-used-in-the-branching">Main commands used in the Branching</h3>
+
+<ol>
+  <li>
+    <p>To create a new branch named “branch1” and switch to it we use - <code class="highlighter-rouge">git checkout -b branch1</code>   command.</p>
+  </li>
+  <li>
+    <p>To switch back to master we use - <code class="highlighter-rouge">git checkout master</code> command.</p>
+  </li>
+  <li>
+    <p>To delete a branch we use - <code class="highlighter-rouge">git branch -d branch1</code></p>
+  </li>
+</ol>
+
+<p>Remember, a branch is not available to others unless we push the branch to our remote repository.</p>
+
+<ol>
+  <li>To push the branch to remote repository we use - <code class="highlighter-rouge">git push origin &lt;branch&gt;</code></li>
+</ol>
+
 
 
 </div>
@@ -109,7 +133,7 @@
 
     <footer>
       <span>
-        &copy; <time datetime="2018-10-02 13:09:33 +0530">2018</time> Richa Sharma. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+        &copy; <time datetime="2018-10-02 14:02:09 +0530">2018</time> Richa Sharma. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
       </span>
     </footer>
   </body>
