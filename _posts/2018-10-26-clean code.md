@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to write clean Code?"
+title:  "How to write a Clean Code?"
 author: "Richa"
 ---
 
