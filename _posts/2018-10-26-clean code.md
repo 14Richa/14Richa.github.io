@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Importance Of Clean Code"
+title:  "How to write clean Code?"
 author: "Richa"
 ---
 
@@ -9,9 +9,11 @@ There are two things - Programming and Good Programming.
 Programming is what we all have been doing. Now, is the time to do good programming. 
 We all know that even the bad code works. But it takes time and real hard work to make a program good and presentable. Moreover, other developers tease you when they are not able to find what all is happening in your code.
 
-This blog will give you all a lot of knowledge on what are the best practises and how to actually write code. 
+This blog will give you a lot of knowledge on what are the best practises and how to actually write code. 
               
-Though I myslef make great effort to better my code every single day. :p
+Though I myself make great effort to better my code every single day. :p
+
+I hope after reading this blog you can become a good and sorted programmer.:smiley:
 
 
 ## Characteristics of a Clean code :
