@@ -11,15 +11,19 @@ author: "Richa"
     
  Any styling information that needs to be applied to multiple objects on a page should be done with a class. Take for example a page with multiple "widgets":
 
-`<div class="widget"></div>
+{% highlight js %}
 <div class="widget"></div>
-<div class="widget"></div>`
+<div class="widget"></div>
+<div class="widget"></div>
+{% highlight js %}
 
 You can now use the class name "widget" as your hook to apply the same set of styling to each one of these. But what if you need one of them to be bigger than the other, but still share all the other attributes? Classes has you covered there, as you can apply more than one class:
 
-`<div class="widget"></div>
+{% highlight js %}
+<div class="widget"></div>
 <div class="widget big"></div>
 <div class="widget"></div>`
+{% highlight js %} 
 
 No need to make a brand new class name here, just apply a new class right in the class attribute.
 
