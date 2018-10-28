@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-28T15:04:59+05:30</updated><id>http://localhost:4000/</id><title type="html">geekGirl</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Richa Sharma</name><email>richasharma1496@gmail.com</email></author><entry><title type="html">Classes v/s Ids</title><link href="http://localhost:4000/2018-10-28/classes-and-id" rel="alternate" type="text/html" title="Classes v/s Ids" /><published>2018-10-28T00:00:00+05:30</published><updated>2018-10-28T00:00:00+05:30</updated><id>http://localhost:4000/2018-10-28/classes%20and%20id</id><content type="html" xml:base="http://localhost:4000/2018-10-28/classes-and-id">&lt;h2 id=&quot;classes-are-not-unique&quot;&gt;Classes are NOT unique&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-28T21:53:59+05:30</updated><id>http://localhost:4000/</id><title type="html">geekGirl</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Richa Sharma</name><email>richasharma1496@gmail.com</email></author><entry><title type="html">Classes v/s Ids</title><link href="http://localhost:4000/2018-10-28/classes-and-id" rel="alternate" type="text/html" title="Classes v/s Ids" /><published>2018-10-28T00:00:00+05:30</published><updated>2018-10-28T00:00:00+05:30</updated><id>http://localhost:4000/2018-10-28/classes%20and%20id</id><content type="html" xml:base="http://localhost:4000/2018-10-28/classes-and-id">&lt;h2 id=&quot;classes-are-not-unique&quot;&gt;Classes are NOT unique&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;You can use the same class on multiple elements.&lt;/li&gt;
@@ -32,7 +32,7 @@
 
 &lt;p&gt;When I was first learning this stuff, I heard over and over that you should only use ID’s once, but you can use classes over and over.  If you are purely an HTML/CSS person, this attitude can continue because to you, they really don’t seem to do anything different.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Your code will not pass validation if you use the same ID on more than one element.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Your code will not pass validation if you use the same ID on more than one element.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;elements-can-have-both&quot;&gt;Elements can have BOTH&lt;/h2&gt;
 
@@ -80,7 +80,7 @@ We all know that even the bad code works. But it takes time and real hard work t
 
 &lt;p&gt;A good coder shoul use intention revealing names. Choosing good names takes time but saves more than it takes. The name of a variable, function, or class, should answer all the big questions. It should tell a person or other programmer why it exists, what it does, and how it is used.&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;If a name requires a comment, then the name does not reveal its intent.&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If a name requires a comment, then the name does not reveal its intent.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;class-names&quot;&gt;Class Names &lt;/h3&gt;
 

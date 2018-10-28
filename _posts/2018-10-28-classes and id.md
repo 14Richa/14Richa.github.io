@@ -42,7 +42,7 @@ No need to make a brand new class name here, just apply a new class right in the
 
 When I was first learning this stuff, I heard over and over that you should only use ID's once, but you can use classes over and over.  If you are purely an HTML/CSS person, this attitude can continue because to you, they really don't seem to do anything different.
 
- `Your code will not pass validation if you use the same ID on more than one element.`
+ **Your code will not pass validation if you use the same ID on more than one element.**
 
 
 

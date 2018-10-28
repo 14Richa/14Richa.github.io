@@ -30,7 +30,7 @@ I hope after reading this blog you can become a good and sorted programmer.:smil
 
 A good coder shoul use intention revealing names. Choosing good names takes time but saves more than it takes. The name of a variable, function, or class, should answer all the big questions. It should tell a person or other programmer why it exists, what it does, and how it is used.
 
-`If a name requires a comment, then the name does not reveal its intent.`
+**If a name requires a comment, then the name does not reveal its intent.**
     
 ### Class Names 
 
