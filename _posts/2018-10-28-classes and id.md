@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Classes V/S Ids"
+title:  "Classes v/s Ids"
 author: "Richa"
 ---
 
@@ -11,7 +11,7 @@ author: "Richa"
     
  Any styling information that needs to be applied to multiple objects on a page should be done with a class. Take for example a page with multiple "widgets":
 
-{% highlight js %}
+{% highlight  html %}
 
 <div class="widget"></div>
 <div class="widget"></div>
@@ -22,7 +22,7 @@ author: "Richa"
 
 You can now use the class name "widget" as your hook to apply the same set of styling to each one of these. But what if you need one of them to be bigger than the other, but still share all the other attributes? Classes has you covered there, as you can apply more than one class:
 
-{% highlight js %}
+{% highlight html %}
 
 <div class="widget"></div>
 <div class="widget big"></div>
@@ -64,6 +64,6 @@ Now, I can link directly to a particular comment on a particular page easily.
 
 Regarding CSS, there is nothing you can do with an ID that you can't do with a Class and vice versa. I remember when I was first learning CSS and I was having a problem, sometimes I would try and troubleshoot by switching around these values. Nope. CSS doesn't care.
 
-## Javascript cares
+## JavaScript cares
 
-JavaScript people are already probably more in tune with the differences between classes and ID's. JavaScript depends on there being only one page element with any particular id, or else the commonly used (getElementByIdfunction) wouldn't be dependable. 
+JavaScript people are already probably more in tune with the differences between classes and ID's. JavaScript depends on there being only one page element with any particular id, or else the commonly used `(getElementByIdfunction)` wouldn't be dependable. 

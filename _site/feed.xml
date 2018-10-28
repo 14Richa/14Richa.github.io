@@ -1,4 +1,90 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-02T14:41:49+05:30</updated><id>http://localhost:4000/</id><title type="html">geekGirl</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Richa Sharma</name><email>richasharma1496@gmail.com</email></author><entry><title type="html">Git has been Got</title><link href="http://localhost:4000/2018-10-01/git" rel="alternate" type="text/html" title="Git has been Got" /><published>2018-10-01T00:00:00+05:30</published><updated>2018-10-01T00:00:00+05:30</updated><id>http://localhost:4000/2018-10-01/git</id><content type="html" xml:base="http://localhost:4000/2018-10-01/git">&lt;p&gt;As we all know, GIT is a tracking system of codes for web developer or software engineer made by the creator of Linux. It includes multiple directories that continuously changes as codes are added throughout website development. Git also tracks the performance of the codes on the stored data. To use GIT we have to use the terminal.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-28T15:04:59+05:30</updated><id>http://localhost:4000/</id><title type="html">geekGirl</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Richa Sharma</name><email>richasharma1496@gmail.com</email></author><entry><title type="html">Classes v/s Ids</title><link href="http://localhost:4000/2018-10-28/classes-and-id" rel="alternate" type="text/html" title="Classes v/s Ids" /><published>2018-10-28T00:00:00+05:30</published><updated>2018-10-28T00:00:00+05:30</updated><id>http://localhost:4000/2018-10-28/classes%20and%20id</id><content type="html" xml:base="http://localhost:4000/2018-10-28/classes-and-id">&lt;h2 id=&quot;classes-are-not-unique&quot;&gt;Classes are NOT unique&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;You can use the same class on multiple elements.&lt;/li&gt;
+  &lt;li&gt;You can use multiple classes on the same element.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Any styling information that needs to be applied to multiple objects on a page should be done with a class. Take for example a page with multiple “widgets”:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;widget&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;widget&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;widget&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can now use the class name “widget” as your hook to apply the same set of styling to each one of these. But what if you need one of them to be bigger than the other, but still share all the other attributes? Classes has you covered there, as you can apply more than one class:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;widget&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;widget big&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;widget&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;No need to make a brand new class name here, just apply a new class right in the class attribute.&lt;/p&gt;
+
+&lt;h2 id=&quot;ids-are-unique&quot;&gt;Id’s are unique&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Each element can have only one ID&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Each page can have only one element with that ID&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When I was first learning this stuff, I heard over and over that you should only use ID’s once, but you can use classes over and over.  If you are purely an HTML/CSS person, this attitude can continue because to you, they really don’t seem to do anything different.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Your code will not pass validation if you use the same ID on more than one element.&lt;/code&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;elements-can-have-both&quot;&gt;Elements can have BOTH&lt;/h2&gt;
+
+&lt;p&gt;There is nothing stopping you from having both an ID and a Class on a single element. In fact, it is often a very good idea.&lt;/p&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;li id=&quot;comment&quot; class=&quot;item&quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It has a class applied to it that you may want for styling all comments on the page, but it also has a unique ID value. This ID value is useful for direct linking.&lt;/p&gt;
+
+&lt;p&gt;Now, I can link directly to a particular comment on a particular page easily.&lt;/p&gt;
+
+&lt;h2 id=&quot;css-doesnt-care&quot;&gt;CSS doesn’t care&lt;/h2&gt;
+
+&lt;p&gt;Regarding CSS, there is nothing you can do with an ID that you can’t do with a Class and vice versa. I remember when I was first learning CSS and I was having a problem, sometimes I would try and troubleshoot by switching around these values. Nope. CSS doesn’t care.&lt;/p&gt;
+
+&lt;h2 id=&quot;javascript-cares&quot;&gt;JavaScript cares&lt;/h2&gt;
+
+&lt;p&gt;JavaScript people are already probably more in tune with the differences between classes and ID’s. JavaScript depends on there being only one page element with any particular id, or else the commonly used &lt;code class=&quot;highlighter-rouge&quot;&gt;(getElementByIdfunction)&lt;/code&gt; wouldn’t be dependable.&lt;/p&gt;</content><author><name>Richa</name></author><summary type="html">Classes are NOT unique</summary></entry><entry><title type="html">How to write a Clean Code?</title><link href="http://localhost:4000/2018-10-26/clean-code" rel="alternate" type="text/html" title="How to write a Clean Code?" /><published>2018-10-26T00:00:00+05:30</published><updated>2018-10-26T00:00:00+05:30</updated><id>http://localhost:4000/2018-10-26/clean%20code</id><content type="html" xml:base="http://localhost:4000/2018-10-26/clean-code">&lt;p&gt;There are two things - Programming and Good Programming.&lt;/p&gt;
+
+&lt;p&gt;Programming is what we all have been doing. Now, is the time to do good programming. 
+We all know that even the bad code works. But it takes time and real hard work to make a program good and presentable. Moreover, other developers tease you when they are not able to find what all is happening in your code.&lt;/p&gt;
+
+&lt;p&gt;This blog will give you a lot of knowledge on what are the best practises and how to actually write code.&lt;/p&gt;
+
+&lt;p&gt;Though I myself make great effort to better my code every single day. :p&lt;/p&gt;
+
+&lt;p&gt;I hope after reading this blog you can become a good and sorted programmer.:smiley:&lt;/p&gt;
+
+&lt;h2 id=&quot;characteristics-of-a-clean-code-&quot;&gt;Characteristics of a Clean code :&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A code should be elegant.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Code should be pleasing to read. Reading it should make you  smile the way a well-  crafted music box or well-designed car would.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Code should be focused - each function, each class should represent a single-minded attitude that remains entirely undistracted by the surrounding details.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;A code should not contain any duplication.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;meaningful-names&quot;&gt;Meaningful Names&lt;/h2&gt;
+
+&lt;p&gt;A good coder shoul use intention revealing names. Choosing good names takes time but saves more than it takes. The name of a variable, function, or class, should answer all the big questions. It should tell a person or other programmer why it exists, what it does, and how it is used.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;If a name requires a comment, then the name does not reveal its intent.&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;class-names&quot;&gt;Class Names &lt;/h3&gt;
+
+&lt;p&gt; Classes and objects should have noun or noun phrase names like Customer,  and AddressParser. A good coder should avoid words like Manager, Processor, Data, or Info in the name of a class. A class name should not be a verb.&lt;/p&gt;</content><author><name>Richa</name></author><summary type="html">There are two things - Programming and Good Programming.</summary></entry><entry><title type="html">Git has been Got</title><link href="http://localhost:4000/2018-10-01/git" rel="alternate" type="text/html" title="Git has been Got" /><published>2018-10-01T00:00:00+05:30</published><updated>2018-10-01T00:00:00+05:30</updated><id>http://localhost:4000/2018-10-01/git</id><content type="html" xml:base="http://localhost:4000/2018-10-01/git">&lt;p&gt;GIT is a tracking system of codes for web developer or software engineer made by the creator of Linux. It includes multiple directories that continuously changes as codes are added throughout website development. Git also tracks the performance of the codes on the stored data. To use GIT we have to use the terminal.&lt;/p&gt;
 
 &lt;p&gt;So, if you are new to git, too, follow the following few steps below to get familiar in  making changes to the code base, making a pull request, and merging code into the master branch.&lt;/p&gt;
 
@@ -54,7 +140,7 @@
     &lt;p&gt;Remember, a branch is not available to others unless we push the branch to our remote 
 repository. To push the branch to remote repository we use - &lt;code class=&quot;highlighter-rouge&quot;&gt;git push origin &amp;lt;branch&amp;gt;&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Richa</name></author><summary type="html">As we all know, GIT is a tracking system of codes for web developer or software engineer made by the creator of Linux. It includes multiple directories that continuously changes as codes are added throughout website development. Git also tracks the performance of the codes on the stored data. To use GIT we have to use the terminal.</summary></entry><entry><title type="html">Passing value or reference??</title><link href="http://localhost:4000/2018-09-30/pass-by-valandref" rel="alternate" type="text/html" title="Passing value or reference??" /><published>2018-09-30T00:00:00+05:30</published><updated>2018-09-30T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-30/pass-by-valandref</id><content type="html" xml:base="http://localhost:4000/2018-09-30/pass-by-valandref">&lt;p&gt;A little introduction on pass by value v/s pass by reference.&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>Richa</name></author><summary type="html">GIT is a tracking system of codes for web developer or software engineer made by the creator of Linux. It includes multiple directories that continuously changes as codes are added throughout website development. Git also tracks the performance of the codes on the stored data. To use GIT we have to use the terminal.</summary></entry><entry><title type="html">Passing value or reference??</title><link href="http://localhost:4000/2018-09-30/pass-by-valandref" rel="alternate" type="text/html" title="Passing value or reference??" /><published>2018-09-30T00:00:00+05:30</published><updated>2018-09-30T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-30/pass-by-valandref</id><content type="html" xml:base="http://localhost:4000/2018-09-30/pass-by-valandref">&lt;p&gt;A little introduction on pass by value v/s pass by reference.&lt;/p&gt;
 
 &lt;h1 id=&quot;pass-by-value&quot;&gt;Pass By Value&lt;/h1&gt;
 
