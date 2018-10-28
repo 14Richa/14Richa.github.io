@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Classes v/s Ids"
+title:  "Classes v/s Id's"
 author: "Richa"
 ---
 
