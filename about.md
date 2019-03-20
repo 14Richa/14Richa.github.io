@@ -5,9 +5,9 @@ author: "Richa"
 permalink: /about/
 ---
 
-Hello World! :grin:	 :grin:	
+Hello World!	
 
-I am Richa, budding web-developer and self-taught programmer. I grew up in Delhi and "studied" Business Administration. Lately I realized my heart (:heart:) lies in tech and building stuff. So I packed my bags and arrived in Bangalore, silicon valley of India :smiley:. 
+I am Richa, budding web-developer and self-taught programmer. I grew up in Delhi and "studied" Business Administration. Lately I realized my heart lies in tech and building stuff. So I packed my bags and arrived in Bangalore, silicon valley of India. 
 
 
 ## Reach out
