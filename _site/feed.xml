@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-28T21:53:59+05:30</updated><id>http://localhost:4000/</id><title type="html">geekGirl</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Richa Sharma</name><email>richasharma1496@gmail.com</email></author><entry><title type="html">Classes v/s Ids</title><link href="http://localhost:4000/2018-10-28/classes-and-id" rel="alternate" type="text/html" title="Classes v/s Ids" /><published>2018-10-28T00:00:00+05:30</published><updated>2018-10-28T00:00:00+05:30</updated><id>http://localhost:4000/2018-10-28/classes%20and%20id</id><content type="html" xml:base="http://localhost:4000/2018-10-28/classes-and-id">&lt;h2 id=&quot;classes-are-not-unique&quot;&gt;Classes are NOT unique&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-03-24T12:55:46+05:30</updated><id>http://localhost:4000/</id><title type="html">geekGirl</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Richa Sharma</name><email>richasharma1496@gmail.com</email></author><entry><title type="html">Case Study on Web Performance Optimization</title><link href="http://localhost:4000/2019-03-23/casestudy1" rel="alternate" type="text/html" title="Case Study on Web Performance Optimization" /><published>2019-03-23T00:00:00+05:30</published><updated>2019-03-23T00:00:00+05:30</updated><id>http://localhost:4000/2019-03-23/casestudy1</id><content type="html" xml:base="http://localhost:4000/2019-03-23/casestudy1">&lt;p&gt;As part of my analysis I consulted &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/&quot;&gt;Lighthouse&lt;/a&gt; and &lt;a href=&quot;https://developers.google.com/speed/pagespeed/insights/&quot;&gt;Pagespeed Insights&lt;/a&gt; to measure performance of www.webcompat.com. 
+I have noted down my findings based on each resource under a different heading. I have also included a list of fixes wherever it was possible for me to suggest an optimization. 
+I have also made some changes and pushed on my own fork of the code to check how the resolution of some of the issues would look like.&lt;/p&gt;
+
+&lt;h2 id=&quot;analysis-of-lighthouse-reports-chrome-web-dev-tool&quot;&gt;Analysis of Lighthouse reports (Chrome web-dev tool)&lt;/h2&gt;
+
+&lt;h3 id=&quot;speed-and-related-metrics&quot;&gt;Speed and related metrics&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;First contentful paint (FCP) 
+Marks the point after navigation when the browser renders first bit of content from DOM; for users it provides feedback that page is loading&lt;/li&gt;
+  &lt;li&gt;First meaningful paint (FMP) 
+Marks the point when the most important (above-the-fold) content has been rendered and webfonts have loaded&lt;/li&gt;
+  &lt;li&gt;Time to interactive (TTI) 
+Marks the time it takes for a page to become interactive, essentially – page has displayed useful content, event handlers are registered and page responds to user interaction&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Large difference in FCP b/w Localhost and Live version&lt;/em&gt;
+On investigating the reports attached in the below comment, I see that there is a significant difference in FCP, FMP etc between localhost and live website. This is primarily because in the localhost the server doesn’t serve compressed test resources and doesn’t load minified JS. These two issues are not present in the live version of the site.&lt;/p&gt;
+
+&lt;h4 id=&quot;issues-in-live-version&quot;&gt;Issues in Live version&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;An issue which is present in both the versions is the wait-time for render blocking resources.
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;Essentially components like google.fonts is preventing rendering of the website before this resource is fetched. 
+Here I see that in layout.html we are linking – href= https://fonts.googleapis.com/css?family=Open+Sans:400,600|Source+Sans+Pro:300,400|PT+Mono 
+ To prevent this from blocking the rendering I used style element inside the body to load the fonts asynchronously. This helps with reducing the FCP, FMP and TTI by shaving off 0.4s on my localhost Lighthouse reports. One issue of this approach is that users might face FOUC (flash of unstyled content) while the fonts are still being loaded and can see a flicker. Some discussion on this: https://stackoverflow.com/questions/25230264/how-to-keep-css-from-render-blocking-my-website&lt;/p&gt;
+
+        &lt;p&gt;I have created a new branch (LoadFontAsynch) on my fork and we can see the code changes at: https://github.com/14Richa/webcompat.com/tree/LoadFontAsynch&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;webcompat.min.css is also a render blocking resource according to the Lighthouse reports. In order to remove/reduce the rendering time we can use critical CSS (above the fold) in in-line fashion and load non-critical CSS asynchronously.&lt;/p&gt;
+
+        &lt;p&gt;I have found a nice collection of resources which I can explore to address this issue: https://github.com/addyosmani/critical-path-css-tools&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Unused CSS rules: webcompat.min.css has some unused rules which can be removed to further increase performance. [&lt;code class=&quot;highlighter-rouge&quot;&gt;Homepage&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Issuelist&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Issuepage&lt;/code&gt;]
+On reading more on this I find some tools mentioned &lt;a href=&quot;https://stackoverflow.com/questions/135657/how-to-identify-unused-css-definitions&quot;&gt;here&lt;/a&gt; would be helpful to find the unused css rules. 
+Chrome web-dev tools also has a coverage option which checks for unused CSS/JS. More details: https://stackoverflow.com/questions/135657/how-to-identify-unused-css-definitions&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Making text visible during webfont load using font-display CSS feature. [&lt;code class=&quot;highlighter-rouge&quot;&gt;Homepage&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Issuelist&lt;/code&gt;] We can use font-display attribute to change fallback logic or decrease block time of the fonts to display the fonts.
+More details: https://developers.google.com/web/updates/2016/02/font-display&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Excessive DOM Size –&amp;gt; This issue is present in &lt;code class=&quot;highlighter-rouge&quot;&gt;Issueslist&lt;/code&gt; page where it lists many issues in one page. 
+This creates ~1100 nodes in the DOM tree. From what I understand, we can take a look at nodes which are displayed when the page loads and send only these nodes at first call, can render other nodes on user’s gesture. [&lt;code class=&quot;highlighter-rouge&quot;&gt;Issuelist&lt;/code&gt;]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;best-practices-flaws&quot;&gt;Best Practices flaws&lt;/h4&gt;
+&lt;p&gt;Some best practices flaws identified by Lighthouse&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Using http/2 for all resources
+webcompat.com is currently hosted on nginx/1.1.19. We would need to upgrade it to nginx/1.9.5 atleast to be compatible with http/2. Since we already serve all our resources with https we satisfy the prerequisites there. In the comments I have added the protocol information for the resources served on the &lt;code class=&quot;highlighter-rouge&quot;&gt;homepage&lt;/code&gt;. It should be easy to migrate the resources served using spydy to http/2 since http/2 was built on top of spydy. &lt;a href=&quot;https://www.nginx.com/blog/http2-module-nginx/&quot;&gt;Here&lt;/a&gt; is a nginx tutorial on how to port/upgrade servers to http/2&lt;/li&gt;
+  &lt;li&gt;Twitter, Github links have target = “_blank”. This can impact performance in general because the linked url can execute a javascript on our page. I found though that linked url here were generally twitter and github links. I have created a branch where I added &lt;code class=&quot;highlighter-rouge&quot;&gt;rel=noopener&lt;/code&gt; as suggested &lt;a href=&quot;https://developers.google.com/web/tools/lighthouse/audits/noopener&quot;&gt;here&lt;/a&gt;. Performance benefits explained &lt;a href=&quot;https://jakearchibald.com/2016/performance-benefits-of-rel-noopener/&quot;&gt;here&lt;/a&gt;. Finally here is a &lt;a href=&quot;https://github.com/14Richa/webcompat.com/commit/2ad3a6466caf852bce863ac6b7b7c229f67eb974&quot;&gt;link to my code changes for review&lt;/a&gt;. Locally testing it improved the score in Lighthouse reports.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;analysis-of-pagespeed-insights&quot;&gt;Analysis of Pagespeed Insights&lt;/h2&gt;
+&lt;p&gt;Pagespeed is another google-supported tool used to understand which resources/best-practices can be checked into while understanding website performance. I have listed down somethings which I want to try to improve rendering performance of webcompat.com&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Browser caching for resources like needs-triage and google-analytics. &lt;code class=&quot;highlighter-rouge&quot;&gt;Homepage&lt;/code&gt; &lt;code class=&quot;highlighter-rouge&quot;&gt;Issuelist&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Minimizing all JS resources. For example: ga.js file is not fetched in a minified version. &lt;code class=&quot;highlighter-rouge&quot;&gt;Homepage&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Issuepage&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Removing render-blocking JS. issue-list.mi.js and wecompat.min.js are render blocking JS files. Maybe we can make an async call to these to improve performance. &lt;code class=&quot;highlighter-rouge&quot;&gt;Issuelist&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;Issuepage&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;All-above-the-fold content could not be rendered with one html response. We can try to organize the content in a different way so that the visible portion of the content can be passed in one html response and we can add remaining content in multiple requests. This will improve above-the-fold rendering time. More details &lt;a href=&quot;https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent&quot;&gt;here&lt;/a&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;IssueList&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Richa</name></author><summary type="html">As part of my analysis I consulted Lighthouse and Pagespeed Insights to measure performance of www.webcompat.com. I have noted down my findings based on each resource under a different heading. I have also included a list of fixes wherever it was possible for me to suggest an optimization. I have also made some changes and pushed on my own fork of the code to check how the resolution of some of the issues would look like.</summary></entry><entry><title type="html">Introduction to React</title><link href="http://localhost:4000/2018-11-09/introduction-to-react" rel="alternate" type="text/html" title="Introduction to React" /><published>2018-11-09T00:00:00+05:30</published><updated>2018-11-09T00:00:00+05:30</updated><id>http://localhost:4000/2018-11-09/introduction%20to%20react</id><content type="html" xml:base="http://localhost:4000/2018-11-09/introduction-to-react">&lt;p&gt;React is a JavaScript library that helps in making the task of building powerful and complicated user interfaces easy.&lt;/p&gt;
+
+&lt;p&gt;It reduces the re-rendering of the DOM by using the concept of Virtual DOM.&lt;/p&gt;
+
+&lt;p&gt;React can be used to develop single page web applications and mobile applications.&lt;/p&gt;
+
+&lt;p&gt;It was built by Facebook to solve some of the challenges associated with large-scale and data-driven websites. React was released in 2013.&lt;/p&gt;
+
+&lt;p&gt;Some of the daily-used app which are built on react are Netflix, Yahoo, Facebook, Instagram WhatsApp, and Uber.&lt;/p&gt;</content><author><name>Richa</name></author><summary type="html">React is a JavaScript library that helps in making the task of building powerful and complicated user interfaces easy.</summary></entry><entry><title type="html">Classes v/s Id’s</title><link href="http://localhost:4000/2018-10-28/classes-and-id" rel="alternate" type="text/html" title="Classes v/s Id's" /><published>2018-10-28T00:00:00+05:30</published><updated>2018-10-28T00:00:00+05:30</updated><id>http://localhost:4000/2018-10-28/classes%20and%20id</id><content type="html" xml:base="http://localhost:4000/2018-10-28/classes-and-id">&lt;h2 id=&quot;classes-are-not-unique&quot;&gt;Classes are NOT unique&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;You can use the same class on multiple elements.&lt;/li&gt;
