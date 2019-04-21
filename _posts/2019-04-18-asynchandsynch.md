@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Sync Programming and Async Programming"
+title:  "I promise to teach you callback"
 author: "Richa"
 ---
 
 I was recently asked this question in an interview. I decided to get to the bottom of this.
 
-When you write code in any of the high-level languages (Python, Javascript, Scala etc.), the program execution is very straightforward. Your program starts at the top and executes one line at a time, and the next line is executed when the previous line's execution finishes. This is called Synchronous program execution. Each time a code block or a function is called, the program waits for until that code-block is successfully executed or until that function returns before moving to the next line of code. This is good and easy to understand but can have undesirable ramifications. Suppose if a function is time-consuming then your process is stuck while that function runs.
+When you write code in any of the high-level languages (Python, Javascript, Scala etc.), the program execution is very straight-forward. Your program starts at the top and executes one line at a time, and the next line is executed when the previous line's execution finishes. This is called Synchronous program execution. Each time a code block or a function is called, the program waits for until that code-block is successfully executed or until that function returns before moving to the next line of code. This is good and easy to understand but can have undesirable ramifications. Suppose if a function is time-consuming then your process is stuck while that function runs.
 
 Asynchronous execution avoids this problem. It is something like saying that let us proceed with the part of the code that doesn't require output of the time consuming function and we will return to the functions which require the output when we do have that output, i.e we will call-back the functions dependent on the time-consuming function's output when it has completed.
 
@@ -33,7 +33,7 @@ But one of the main applications of callback functions we see are when we want t
 Let us see an example of callback functions in action. I have used the same examples as in this very good [blogpost by Sebastian Lindström.](https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee)
 {% highlight js %}
 
-    const request = require(‘request’);
+    const request = require('request');
     function handleResponse(error, response, body){
         if(error){
             // Handle error.
@@ -56,7 +56,7 @@ This is all neat and tidy. But what if we want to do multiple operations with th
             // Handle error.
         }
         else {
-            request(`http://www.somepage.com/${firstBody.someValue}`, function (secondError, secondResponse, secondBody) {
+            request('http://www.somepage.com/${firstBody.someValue}', function (secondError, secondResponse, secondBody) {
                 if(secondError){
                     // Handle error.
                 }
@@ -83,12 +83,12 @@ Instead of passing another function which will be called back, promise object ha
 It is easier to understand with an example, let us borrow another one from [the blogpost](https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee).
 {% highlight js %}
 
-    const axios = require(‘axios’);
+    const axios = require('axios');
     
-    axios.get(‘<http://www.somepage.com>')
+    axios.get('<http://www.somepage.com>')
     .then(function (response) { // Reponse being the result of the first request
         // Returns another promise to the next .then(..) in the chain
-        return axios.get(`http://www.somepage.com/${response.someValue}`);
+        return axios.get('http://www.somepage.com/${response.someValue}');
     })
     .then(function response { // Reponse being the result of the second request
         // Handle response

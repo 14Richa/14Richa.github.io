@@ -8,7 +8,7 @@
 
   <title>
     
-      Sync Programming and Async Programming &middot; geekGirl
+      I promise to teach you callback &middot; geekGirl
     
   </title>
 
@@ -53,12 +53,12 @@
     
   </div>
 
-  <h1 class="post-title">Sync Programming and Async Programming</h1>
+  <h1 class="post-title">I promise to teach you callback</h1>
   <div class="post-line"></div>
 
   <p>I was recently asked this question in an interview. I decided to get to the bottom of this.</p>
 
-<p>When you write code in any of the high-level languages (Python, Javascript, Scala etc.), the program execution is very straightforward. Your program starts at the top and executes one line at a time, and the next line is executed when the previous line’s execution finishes. This is called Synchronous program execution. Each time a code block or a function is called, the program waits for until that code-block is successfully executed or until that function returns before moving to the next line of code. This is good and easy to understand but can have undesirable ramifications. Suppose if a function is time-consuming then your process is stuck while that function runs.</p>
+<p>When you write code in any of the high-level languages (Python, Javascript, Scala etc.), the program execution is very straight-forward. Your program starts at the top and executes one line at a time, and the next line is executed when the previous line’s execution finishes. This is called Synchronous program execution. Each time a code block or a function is called, the program waits for until that code-block is successfully executed or until that function returns before moving to the next line of code. This is good and easy to understand but can have undesirable ramifications. Suppose if a function is time-consuming then your process is stuck while that function runs.</p>
 
 <p>Asynchronous execution avoids this problem. It is something like saying that let us proceed with the part of the code that doesn’t require output of the time consuming function and we will return to the functions which require the output when we do have that output, i.e we will call-back the functions dependent on the time-consuming function’s output when it has completed.</p>
 
@@ -83,7 +83,7 @@
 
 <p>Let us see an example of callback functions in action. I have used the same examples as in this very good <a href="https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee">blogpost by Sebastian Lindström.</a></p>
 
-<figure class="highlight"><pre><code class="language-js" data-lang="js">    <span class="kd">const</span> <span class="nx">request</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="err">‘</span><span class="nx">request</span><span class="err">’</span><span class="p">);</span>
+<figure class="highlight"><pre><code class="language-js" data-lang="js">    <span class="kd">const</span> <span class="nx">request</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'request'</span><span class="p">);</span>
     <span class="kd">function</span> <span class="nx">handleResponse</span><span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">response</span><span class="p">,</span> <span class="nx">body</span><span class="p">){</span>
         <span class="k">if</span><span class="p">(</span><span class="nx">error</span><span class="p">){</span>
             <span class="c1">// Handle error.</span>
@@ -103,7 +103,7 @@
             <span class="c1">// Handle error.</span>
         <span class="p">}</span>
         <span class="k">else</span> <span class="p">{</span>
-            <span class="nx">request</span><span class="p">(</span><span class="s2">`http://www.somepage.com/</span><span class="p">${</span><span class="nx">firstBody</span><span class="p">.</span><span class="nx">someValue</span><span class="p">}</span><span class="s2">`</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">secondError</span><span class="p">,</span> <span class="nx">secondResponse</span><span class="p">,</span> <span class="nx">secondBody</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">request</span><span class="p">(</span><span class="s1">'http://www.somepage.com/${firstBody.someValue}'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">secondError</span><span class="p">,</span> <span class="nx">secondResponse</span><span class="p">,</span> <span class="nx">secondBody</span><span class="p">)</span> <span class="p">{</span>
                 <span class="k">if</span><span class="p">(</span><span class="nx">secondError</span><span class="p">){</span>
                     <span class="c1">// Handle error.</span>
                 <span class="p">}</span>
@@ -126,12 +126,12 @@
 
 <p>It is easier to understand with an example, let us borrow another one from <a href="https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee">the blogpost</a>.</p>
 
-<figure class="highlight"><pre><code class="language-js" data-lang="js">    <span class="kd">const</span> <span class="nx">axios</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="err">‘</span><span class="nx">axios</span><span class="err">’</span><span class="p">);</span>
+<figure class="highlight"><pre><code class="language-js" data-lang="js">    <span class="kd">const</span> <span class="nx">axios</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">'axios'</span><span class="p">);</span>
     
-    <span class="nx">axios</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="err">‘</span><span class="o">&lt;</span><span class="nx">http</span><span class="p">:</span><span class="c1">//www.somepage.com&gt;')</span>
+    <span class="nx">axios</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'&lt;http://www.somepage.com&gt;'</span><span class="p">)</span>
     <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">response</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// Reponse being the result of the first request</span>
         <span class="c1">// Returns another promise to the next .then(..) in the chain</span>
-        <span class="k">return</span> <span class="nx">axios</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s2">`http://www.somepage.com/</span><span class="p">${</span><span class="nx">response</span><span class="p">.</span><span class="nx">someValue</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
+        <span class="k">return</span> <span class="nx">axios</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s1">'http://www.somepage.com/${response.someValue}'</span><span class="p">);</span>
     <span class="p">})</span>
     <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="nx">response</span> <span class="p">{</span> <span class="c1">// Reponse being the result of the second request</span>
         <span class="c1">// Handle response</span>
@@ -171,7 +171,7 @@
 
     <footer>
       <span>
-        &copy; <time datetime="2019-04-21 22:21:38 +0530">2019</time> Richa Sharma. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+        &copy; <time datetime="2019-04-21 22:36:55 +0530">2019</time> Richa Sharma. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
       </span>
     </footer>
   </body>
