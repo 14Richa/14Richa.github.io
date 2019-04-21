@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <title>
+    
+      Sync Programming and Async Programming &middot; geekGirl
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+
+  <!-- RSS -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="geekGirl" />
+</head>
+
+
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="/">
+          <h2 class="nav-title">geekGirl</h2>
+        </a>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/">Posts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="post">
+  <div class="post-info">
+    <span>Written by</span>
+    
+        Richa
+    
+
+    
+      <br>
+      <span>on&nbsp;</span><time datetime="2019-04-18 00:00:00 +0530">April 18, 2019</time>
+    
+  </div>
+
+  <h1 class="post-title">Sync Programming and Async Programming</h1>
+  <div class="post-line"></div>
+
+  <p>I was recently asked this question in an interview. I decided to get to the bottom of this.</p>
+
+<p>When you write code in any of the high-level languages (Python, Javascript, Scala etc.), the program execution is very straightforward. Your program starts at the top and executes one line at a time, and the next line is executed when the previous line’s execution finishes. This is called Synchronous program execution. Each time a code block or a function is called, the program waits for until that code-block is successfully executed or until that function returns before moving to the next line of code. This is good and easy to understand but can have undesirable ramifications. Suppose if a function is time-consuming then your process is stuck while that function runs.</p>
+
+<p>Asynchronous execution avoids this problem. It is something like saying that let us proceed with the part of the code that doesn’t require output of the time consuming function and we will return to the functions which require the output when we do have that output, i.e we will call-back the functions dependent on the time-consuming function’s output when it has completed.</p>
+
+<p>This brings us to callback functions.</p>
+
+<h2 id="callback-functions">Callback functions</h2>
+
+<p>Simply put — when a function has another function as an argument, that argument function is known as a callback function. This is because that function in not directly called upon but is called-back upon when the higher order function is executed</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">    
+    <span class="kd">function</span> <span class="nx">introduction</span><span class="p">(</span><span class="nx">firstName</span><span class="p">,</span> <span class="nx">lastName</span><span class="p">,</span> <span class="nx">callback</span><span class="p">)</span> <span class="p">{</span>
+      <span class="kd">const</span> <span class="nx">fullName</span> <span class="o">=</span> <span class="nx">$</span><span class="p">{</span><span class="nx">firstName</span><span class="p">}</span> <span class="nx">$</span><span class="p">{</span><span class="nx">lastName</span><span class="p">};</span>
+    
+      <span class="nx">callback</span><span class="p">(</span><span class="nx">fullName</span><span class="p">);</span>
+    <span class="p">}</span>
+    
+    <span class="nx">introduction</span><span class="p">(</span><span class="s1">'Chris'</span><span class="p">,</span><span class="s1">'Nwamba'</span><span class="p">,</span> <span class="nx">greeting</span><span class="p">);</span> <span class="c1">// Hello Chris Nwamba, welcome to Scotch!</span></code></pre></figure>
+
+<p>This means when we use functions with array methods like map, filter etc. those are also callback functions.</p>
+
+<p>But one of the main applications of callback functions we see are when we want to call the functions dependent on execution of a time-consuming main function. Adding event listeners in a browser with <code class="highlighter-rouge">addEventListener</code>, reading files <code class="highlighter-rouge">fs.readFile</code> are examples of common APIs that uses callbacks.</p>
+
+<p>Let us see an example of callback functions in action. I have used the same examples as in this very good <a href="https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee">blogpost by Sebastian Lindström.</a></p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">    <span class="kd">const</span> <span class="nx">request</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="err">‘</span><span class="nx">request</span><span class="err">’</span><span class="p">);</span>
+    <span class="kd">function</span> <span class="nx">handleResponse</span><span class="p">(</span><span class="nx">error</span><span class="p">,</span> <span class="nx">response</span><span class="p">,</span> <span class="nx">body</span><span class="p">){</span>
+        <span class="k">if</span><span class="p">(</span><span class="nx">error</span><span class="p">){</span>
+            <span class="c1">// Handle error.</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="p">{</span>
+            <span class="c1">// Successful, do something with the result.</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+    <span class="nx">request</span><span class="p">(</span><span class="s1">'&lt;https://www.somepage.com&gt;'</span><span class="p">,</span> <span class="nx">handleResponse</span><span class="p">);</span></code></pre></figure>
+
+<p>The last argument of <code class="highlighter-rouge">request</code> is a callback function <code class="highlighter-rouge">handleResponse</code>. We can also pass anonymous/arrow functions in the call directly. This function is not executed together with the code but is executed later once the underlying I/O operation is done.</p>
+
+<p>This is all neat and tidy. But what if we want to do multiple operations with the data and based on the data received might want to fetch more data. Again I will use the example for the <a href="https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee">same blogpost</a>.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">    <span class="nx">request</span><span class="p">(</span><span class="s1">'&lt;http://www.somepage.com&gt;'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">firstError</span><span class="p">,</span> <span class="nx">firstResponse</span><span class="p">,</span> <span class="nx">firstBody</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">if</span><span class="p">(</span><span class="nx">firstError</span><span class="p">){</span>
+            <span class="c1">// Handle error.</span>
+        <span class="p">}</span>
+        <span class="k">else</span> <span class="p">{</span>
+            <span class="nx">request</span><span class="p">(</span><span class="s2">`http://www.somepage.com/</span><span class="p">${</span><span class="nx">firstBody</span><span class="p">.</span><span class="nx">someValue</span><span class="p">}</span><span class="s2">`</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">secondError</span><span class="p">,</span> <span class="nx">secondResponse</span><span class="p">,</span> <span class="nx">secondBody</span><span class="p">)</span> <span class="p">{</span>
+                <span class="k">if</span><span class="p">(</span><span class="nx">secondError</span><span class="p">){</span>
+                    <span class="c1">// Handle error.</span>
+                <span class="p">}</span>
+                <span class="k">else</span> <span class="p">{</span>
+                    <span class="c1">// Use secondBody for something</span>
+                <span class="p">}</span>
+            <span class="p">});</span>
+        <span class="p">}</span>
+    <span class="p">});</span></code></pre></figure>
+
+<p>What we see above is a nested callback code block. This soon gets messy and is popularly called callback hell. This has been discussed at length here, here and here.</p>
+
+<p>How do we get out of this?</p>
+
+<h1 id="promises">Promises</h1>
+
+<p>A promise is an asynchronous operation that may complete at some point and produce a value. It is exported as a new kind of object in Javascript that wraps an async operation and notifies when it’s done.</p>
+
+<p>Instead of passing another function which will be called back, promise object has a new interface which gives you option to write the callback functions succinctly inside the <code class="highlighter-rouge">then</code> tags and reads much better than the nested callback code blocks.</p>
+
+<p>It is easier to understand with an example, let us borrow another one from <a href="https://medium.com/codebuddies/getting-to-know-asynchronous-javascript-callbacks-promises-and-async-await-17e0673281ee">the blogpost</a>.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">    <span class="kd">const</span> <span class="nx">axios</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="err">‘</span><span class="nx">axios</span><span class="err">’</span><span class="p">);</span>
+    
+    <span class="nx">axios</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="err">‘</span><span class="o">&lt;</span><span class="nx">http</span><span class="p">:</span><span class="c1">//www.somepage.com&gt;')</span>
+    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">response</span><span class="p">)</span> <span class="p">{</span> <span class="c1">// Reponse being the result of the first request</span>
+        <span class="c1">// Returns another promise to the next .then(..) in the chain</span>
+        <span class="k">return</span> <span class="nx">axios</span><span class="p">.</span><span class="kd">get</span><span class="p">(</span><span class="s2">`http://www.somepage.com/</span><span class="p">${</span><span class="nx">response</span><span class="p">.</span><span class="nx">someValue</span><span class="p">}</span><span class="s2">`</span><span class="p">);</span>
+    <span class="p">})</span>
+    <span class="p">.</span><span class="nx">then</span><span class="p">(</span><span class="kd">function</span> <span class="nx">response</span> <span class="p">{</span> <span class="c1">// Reponse being the result of the second request</span>
+        <span class="c1">// Handle response</span>
+    <span class="p">})</span>
+    <span class="p">.</span><span class="k">catch</span><span class="p">(</span><span class="kd">function</span> <span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
+        <span class="c1">// Handle error.</span>
+    <span class="p">});</span></code></pre></figure>
+
+<p>So the above code blocks achieves the same output as the one with nested callbacks but is much easy to read, follow and debug. Crux of the matter is that a nested callback code-block can be transformed to a chain of <code class="highlighter-rouge">then()</code> tags when writing with promises.</p>
+
+<p>Couple of points to highlight:</p>
+
+<ol>
+  <li>Code in each <code class="highlighter-rouge">then()</code> tag is executed when either the request has finished or the previous <code class="highlighter-rouge">then()</code> tag has finished execution;</li>
+  <li>There is only one <code class="highlighter-rouge">catch()</code> to handle errors from all <code class="highlighter-rouge">then()</code> calls;</li>
+  <li>Every <code class="highlighter-rouge">then()</code> call should return a new Promise object or a value.</li>
+</ol>
+
+<p>Now we understand how <code class="highlighter-rouge">Promises</code> work and how they can be used to replace callbacks. In another post I would try to explain how to create new promise objects and also modify callback based API calls to work with <code class="highlighter-rouge">Promise</code> interface.</p>
+
+<p>Ta-da!</p>
+
+
+
+</div>
+
+<div class="pagination">
+  
+  
+    <a href="/2019-03-23/casestudy1" class="right arrow">&#8594;</a>
+  
+
+  <a href="#" class="top">Top</a>
+</div>
+
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time datetime="2019-04-21 22:21:38 +0530">2019</time> Richa Sharma. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+      </span>
+    </footer>
+  </body>
+</html>
