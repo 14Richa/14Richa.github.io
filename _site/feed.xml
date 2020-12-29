@@ -1,4 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-04-21T22:36:55+05:30</updated><id>http://localhost:4000/</id><title type="html">geekGirl</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Richa Sharma</name><email>richasharma1496@gmail.com</email></author><entry><title type="html">I promise to teach you callback</title><link href="http://localhost:4000/2019-04-18/asynchandsynch" rel="alternate" type="text/html" title="I promise to teach you callback" /><published>2019-04-18T00:00:00+05:30</published><updated>2019-04-18T00:00:00+05:30</updated><id>http://localhost:4000/2019-04-18/asynchandsynch</id><content type="html" xml:base="http://localhost:4000/2019-04-18/asynchandsynch">&lt;p&gt;I was recently asked this question in an interview. I decided to get to the bottom of this.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-29T16:55:15+05:30</updated><id>http://localhost:4000/</id><title type="html">geekGirl</title><subtitle>Minimal Jekyll theme for storytellers</subtitle><author><name>Richa Sharma</name><email>richasharma1496@gmail.com</email></author><entry><title type="html">Outreachy Week 3</title><link href="http://localhost:4000/2020-12-22/outreachyblog2" rel="alternate" type="text/html" title="Outreachy Week 3" /><published>2020-12-22T00:00:00+05:30</published><updated>2020-12-22T00:00:00+05:30</updated><id>http://localhost:4000/2020-12-22/outreachyblog2</id><content type="html" xml:base="http://localhost:4000/2020-12-22/outreachyblog2">&lt;h2 id=&quot;everybody-struggles&quot;&gt;Everybody struggles&lt;/h2&gt;
+
+&lt;h4 id=&quot;stop-focusing-on-results-and-enjoy-the-process&quot;&gt;Stop focusing on results and enjoy the process.&lt;/h4&gt;
+
+&lt;p&gt;I haven’t had many difficulties in coding on my project yet. Maybe because I already have some experience with the languages I’m using currently for my Mozilla Container Project. However, there are many new methods and platforms I am using during the outreachy internship. Every time my mentor suggests new methods, I spend a lot of time studying them from their documentation. So I am spending time learning phabricator, mercurial and searchfox. 
+As I work on larger projects in my internships, I have come to realize that knowing your tools is as important as knowing your programming languages. Tools like searchfox, mercurial, etc. make it easy to collaborate and find the way around in code.&lt;/p&gt;
+
+&lt;p&gt;I am also learning how to write good meeting notes during weekly catch-ups. My mentors write down weekly notes which are very helpful throughout the week. This keeps the work organized and on-track.&lt;/p&gt;
+
+&lt;p&gt;The good side of all the struggle and hard work is that we learn and get out of our comfort zone. It may sound overwhelming or scary at first, but I know deep down trying and discovering new things will eventually be worth it.
+At my low points during the internship, I always tell myself that even the most experienced person felt and went through the same fight like us, although I am still a beginner at some topics, the main purpose of this internship is to learn and improve each day.&lt;/p&gt;</content><author><name>Richa</name></author><summary type="html">Everybody struggles</summary></entry><entry><title type="html">Outreachy Week 1</title><link href="http://localhost:4000/2020-12-15/outreachyblog1" rel="alternate" type="text/html" title="Outreachy Week 1" /><published>2020-12-15T00:00:00+05:30</published><updated>2020-12-15T00:00:00+05:30</updated><id>http://localhost:4000/2020-12-15/outreachyblog1</id><content type="html" xml:base="http://localhost:4000/2020-12-15/outreachyblog1">&lt;p&gt;I’m Richa, a software developer based in Delhi, India. I focus on writing clean, elegant, and efficient code. I grew up in Delhi and studied Business Administration. After working at product companies in business dev roles, I realized my heart lies in tech and building stuff. So I packed my bags and arrived in Bangalore, silicon valley of India. I am proficient in ReactJS, Javascript, and GatsbyJS. I am always eager to learn new technologies and look forward to applying them in my work. I care about performance optimization, frictionless UI, and readability in code. Outside of work I’m passionate about my family, movies and Cult.fit.&lt;/p&gt;
+
+&lt;p&gt;Outreachy is an awesome initiative to get more women and members of other underrepresented groups involved in Free &amp;amp; Open Source Software.
+Few points why I am doing Outreachy are as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get to work in a great organization that I’ve admired for years.&lt;/li&gt;
+  &lt;li&gt;Write code for an actual real-world project.&lt;/li&gt;
+  &lt;li&gt;Gain confidence and feel more like a “real software developer”.&lt;/li&gt;
+  &lt;li&gt;Learn more about various languages and testing.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I am sure I will be able to fulfill my goals and add more goals as the internship goes along. But for now, it’s just a time to sit back, relax, and work super hard all winter to achieve them!&lt;/p&gt;
+
+&lt;p&gt;I feel core values are important because they act as a compass to help lead an amazing life that we want. Following are the top 3 core values that I follow in my daily life:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;wisdom&quot;&gt;WISDOM&lt;/h4&gt;
+    &lt;p&gt;Wisdom is the mixture of knowledge and character. In simple words, wisdom is one’s knowledge of the Truth combined with his/her ability to live with the truth. 
+For eg. having the knowledge that cigarette smoking is bad for your health combined with the strength of character to avoid smoking.
+The more knowledge we develop about the truth and the more we develop our character practicing that particular knowledge, the more wise a person becomes. Hence, it’s a continuous cycle of improvement.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;calmness&quot;&gt;CALMNESS&lt;/h4&gt;
+    &lt;p&gt;There is a popular saying that “If a person can stay calm even in hard times, you will be successful.” Therefore, staying calm allows us to think logically and take decisions accordingly. Clarity of mind is extremely important while we are dealing with any kind of problem. If our mind is free and relaxed, our clarity on thoughts will provide the solutions.
+I feel staying calm during unfavorable issues will reflect our inner character and will provide a positive impression to others.  It also helps us to develop our personality as we are able to cope up with our problems patiently.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;h4 id=&quot;gratitude&quot;&gt;GRATITUDE&lt;/h4&gt;
+    &lt;p&gt;I feel being grateful makes one appreciate what’s already there, which reduces stress. That in turn helps the person to be more focused in decision making and creative thinking. If we express gratitude often, people are going to love helping out and will want to work with us. 
+For eg: If we are looking for a mentor, that person is way more likely to stick around if we show him how grateful we are for his help. Hence, I feel gratitude is something we will see happening around us once we start doing it. Gratitude provides a powerful perspective shift whenever we feel low.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Richa</name></author><summary type="html">I’m Richa, a software developer based in Delhi, India. I focus on writing clean, elegant, and efficient code. I grew up in Delhi and studied Business Administration. After working at product companies in business dev roles, I realized my heart lies in tech and building stuff. So I packed my bags and arrived in Bangalore, silicon valley of India. I am proficient in ReactJS, Javascript, and GatsbyJS. I am always eager to learn new technologies and look forward to applying them in my work. I care about performance optimization, frictionless UI, and readability in code. Outside of work I’m passionate about my family, movies and Cult.fit.</summary></entry><entry><title type="html">Concept of Currying</title><link href="http://localhost:4000/2019-11-26/currying" rel="alternate" type="text/html" title="Concept of Currying" /><published>2019-11-26T00:00:00+05:30</published><updated>2019-11-26T00:00:00+05:30</updated><id>http://localhost:4000/2019-11-26/currying</id><content type="html" xml:base="http://localhost:4000/2019-11-26/currying">&lt;p&gt;&lt;strong&gt;“Currying is the process of turning a function with multiple arity into a function with less arity”  — Kristina Brainwave&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In simple words, currying is a method in programming in which we can transform a function with multiple arguments into a nested functions. It returns a new function that expects the next argument.&lt;/p&gt;
+
+&lt;p&gt;So, currying transforms a function with multiple arguments into a series of functions each taking a single argument.&lt;/p&gt;
+
+&lt;p&gt;Let’s look at a simple example:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;  &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;multiply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;This function takes three numbers, multiplies the numbers and returns the result.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;  &lt;span class=&quot;nx&quot;&gt;multiply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 6&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Let’s create a curried version of the same  function and see how we would call the same function and get the same result :&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;multiply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;    
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;        
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;            
+                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;c&lt;/span&gt;        
+                &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;    
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; 
+    
+    &lt;span class=&quot;nx&quot;&gt;multiply&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 6&lt;/span&gt;
+
+    &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Above as you can see we have turned the multiply(1,2,3) function call to multiply(1)(2)(3) multiple function calls.&lt;/p&gt;
+
+&lt;h4 id=&quot;is-currying-useful&quot;&gt;Is Currying useful?&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Avoid frequently calling a function with the same argument&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;For example, we have a function to calculate the volume of a cylinder:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;volume&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;It happens that all the cylinders are of height 100m.
+You will see that you will repeatedly call this function with &lt;code class=&quot;highlighter-rouge&quot;&gt;h&lt;/code&gt; as &lt;code class=&quot;highlighter-rouge&quot;&gt;100&lt;/code&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;    &lt;span class=&quot;nx&quot;&gt;volume&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 20030100&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;volume&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;32&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;45&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//144000l&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To resolve this, you curry the &lt;code class=&quot;highlighter-rouge&quot;&gt;volume&lt;/code&gt; function(like we did earlier):&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;    &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;volume&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;    
+        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;        
+            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;            
+                &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;l&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;w&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;h&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;        
+            &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;    
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+     &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;We can define a specific function for a particular cylinder height:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;CylinderHeight&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;volume&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;100&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;CylinderHeight&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;200&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;30&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 600,000l&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
+
+&lt;p&gt;Currying is a transform that makes &lt;code class=&quot;highlighter-rouge&quot;&gt;function(a,b,c)&lt;/code&gt;  as &lt;code class=&quot;highlighter-rouge&quot;&gt;function(a)(b)(c)&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Currying allows to easily get partials function. As we’ve seen in the volume example: the universal &lt;code class=&quot;highlighter-rouge&quot;&gt;function log(h, w, l)&lt;/code&gt; after currying gives us partials when called with one argument like &lt;code class=&quot;highlighter-rouge&quot;&gt;function(h)&lt;/code&gt; or two arguments &lt;code class=&quot;highlighter-rouge&quot;&gt;function(w, l)&lt;/code&gt;.&lt;/p&gt;</content><author><name>Richa</name></author><summary type="html">“Currying is the process of turning a function with multiple arity into a function with less arity” — Kristina Brainwave</summary></entry><entry><title type="html">I promise to teach you callback</title><link href="http://localhost:4000/2019-04-18/asynchandsynch" rel="alternate" type="text/html" title="I promise to teach you callback" /><published>2019-04-18T00:00:00+05:30</published><updated>2019-04-18T00:00:00+05:30</updated><id>http://localhost:4000/2019-04-18/asynchandsynch</id><content type="html" xml:base="http://localhost:4000/2019-04-18/asynchandsynch">&lt;p&gt;I was recently asked this question in an interview. I decided to get to the bottom of this.&lt;/p&gt;
 
 &lt;p&gt;When you write code in any of the high-level languages (Python, Javascript, Scala etc.), the program execution is very straight-forward. Your program starts at the top and executes one line at a time, and the next line is executed when the previous line’s execution finishes. This is called Synchronous program execution. Each time a code block or a function is called, the program waits for until that code-block is successfully executed or until that function returns before moving to the next line of code. This is good and easy to understand but can have undesirable ramifications. Suppose if a function is time-consuming then your process is stuck while that function runs.&lt;/p&gt;
 
@@ -367,98 +474,4 @@ repository. To push the branch to remote repository we use - &lt;code class=&quo
     &lt;span class=&quot;c1&quot;&gt;// Inside the idea function&lt;/span&gt;
    &lt;span class=&quot;c1&quot;&gt;// { x : 250 }&lt;/span&gt;
 
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ideaObj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// { x : 250 };&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Richa</name></author><summary type="html">A little introduction on pass by value v/s pass by reference.</summary></entry><entry><title type="html">Requirements when creating a User Defined objects</title><link href="http://localhost:4000/2018-09-30/new-keyword" rel="alternate" type="text/html" title="Requirements when creating a User Defined objects" /><published>2018-09-30T00:00:00+05:30</published><updated>2018-09-30T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-30/new%20keyword</id><content type="html" xml:base="http://localhost:4000/2018-09-30/new-keyword">&lt;p&gt;While creating a user-defined objects there are two steps which are required:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Defining the object type by writing a function.&lt;/li&gt;
-  &lt;li&gt;Creating an object with ‘new’ keyword.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;To define an object type we have to create a function for the object type that focus on its name and properties.&lt;/p&gt;
-
-&lt;p&gt;The ‘new’ keyword creates a case of a user-defined object or  built-in object  that has a constructor function.&lt;/p&gt;
-
-&lt;p&gt;Example:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Scooter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;make&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;make&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;model&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;model&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;year&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;scooter1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Scooter&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Activa'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'XXX3'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1996&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;car1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;year&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// 1996&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Richa</name></author><summary type="html">While creating a user-defined objects there are two steps which are required:</summary></entry><entry><title type="html">When developing landing pages</title><link href="http://localhost:4000/2018-09-29/landing-pages" rel="alternate" type="text/html" title="When developing landing pages" /><published>2018-09-29T00:00:00+05:30</published><updated>2018-09-29T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-29/landing-pages</id><content type="html" xml:base="http://localhost:4000/2018-09-29/landing-pages">&lt;p&gt;Somedays back I had to write a one-pager on essentials of building a landing page. It got me thinking on what is crux of the things one should take care of when developing a front-page of their website/business.&lt;/p&gt;
-
-&lt;h1 id=&quot;user-interface-and-user-experience&quot;&gt;User Interface and User Experience&lt;/h1&gt;
-
-&lt;p&gt;As a web-designer and as a consumer I have felt the importance of an intuitive user interface.&lt;/p&gt;
-
-&lt;p&gt;We should aim to design functional sites that can easily attract interest and drive online traffic. I think the website design and layout are very domain specific, in a way that an e-commerce website should look and feel different from a news aggregator website.&lt;/p&gt;
-
-&lt;p&gt;Couple of point which I keep in mind while developing web-pages are minimalist design themes, appropriate color-scheme and intuitive workflow. My go-to reference when making some design choices is Google’s Material Design docs.&lt;/p&gt;
-
-&lt;h1 id=&quot;performance-optimization&quot;&gt;Performance Optimization&lt;/h1&gt;
-
-&lt;p&gt;When designing web-pages, another key thing to note is how quickly is your website served to the end-user. Losing a second to load is akin to losing a customer forever. Therefore the performance of the software is important. I try to employ both server-side and client side performance optimization techniques. Using minified CSS/JS to reduce load time in browser, reducing HTTP requests (reducing third-party plugins), using less-resolution images etc are some of the common methods we can employ to reduce load time.&lt;/p&gt;
-
-&lt;p&gt;Also it is important to use responsive design templates to make the website perform optimally across devices. I have used twitter bootstrap and media query to achieve that in past.&lt;/p&gt;
-
-&lt;h1 id=&quot;seo-optimization&quot;&gt;SEO Optimization&lt;/h1&gt;
-
-&lt;p&gt;Finally I feel a landing page would get traffic only if it is SEO optimized and feature at the top in the search results. It drives the quantity, quality and organic traffic for the web-site. The website content should be easily parsable by Google crawlers while they index the website. We should do a keyword research which the users use while searching for the relevant content. Finally the titles and meta-information of our page should reflect the content of the page.&lt;/p&gt;
-
-&lt;p&gt;I feel these are the broad themes one should look into while designing landing pages.&lt;/p&gt;</content><author><name>Richa</name></author><summary type="html">Somedays back I had to write a one-pager on essentials of building a landing page. It got me thinking on what is crux of the things one should take care of when developing a front-page of their website/business.</summary></entry><entry><title type="html">Var, Let and Const</title><link href="http://localhost:4000/2018-09-21/let-var-const" rel="alternate" type="text/html" title="Var, Let and Const" /><published>2018-09-21T00:00:00+05:30</published><updated>2018-09-21T00:00:00+05:30</updated><id>http://localhost:4000/2018-09-21/let-var-const</id><content type="html" xml:base="http://localhost:4000/2018-09-21/let-var-const">&lt;p&gt;This blog consist the scope and use of &lt;code class=&quot;highlighter-rouge&quot;&gt;var&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;const&lt;/code&gt; in Javascript. 
-Three of the above methods are used to define a variable in Javascript but three of them hold a different properties and scope which vary their usage in a function.&lt;/p&gt;
-
-&lt;h1 id=&quot;scope-of-var&quot;&gt;Scope of Var&lt;/h1&gt;
-
-&lt;p&gt;Scope means in simple language that where the particular variables can be used.&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Var&lt;/code&gt; has a global scope.
- That means that any variable that is declared with var outside a function block can be used in the whole function.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-  &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;c1&quot;&gt;//Prints 2&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;//Prints 2&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;scope-of-let&quot;&gt;Scope Of Let&lt;/h1&gt;
-
-&lt;p&gt;Anything within &lt;code class=&quot;highlighter-rouge&quot;&gt;{}&lt;/code&gt; is a block. 
-So a variable declared in a block with the &lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt; is only used within that block.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;If&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-	&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;kd&quot;&gt;let&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;20&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Prints 5&lt;/span&gt;
-	&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Prints 20&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Prints 10&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//Undefined&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;scope-of-const&quot;&gt;Scope of Const&lt;/h1&gt;
-
-&lt;p&gt;Variables declared with the &lt;code class=&quot;highlighter-rouge&quot;&gt;const&lt;/code&gt; maintain a fixed values. 
-&lt;code class=&quot;highlighter-rouge&quot;&gt;const&lt;/code&gt;  declarations share same similarities as let declarations.&lt;/p&gt;
-
-&lt;p&gt;Like &lt;code class=&quot;highlighter-rouge&quot;&gt;let&lt;/code&gt; declarations, &lt;code class=&quot;highlighter-rouge&quot;&gt;const&lt;/code&gt; declarations can only be used within the block it is declared.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example&lt;/span&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// Here x value is 10&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt; 
-    &lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// Here x value is 2&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;// Here x value is 10&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Richa</name></author><summary type="html">This blog consist the scope and use of var, let and const in Javascript. Three of the above methods are used to define a variable in Javascript but three of them hold a different properties and scope which vary their usage in a function.</summary></entry></feed>
+&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ideaObj&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// { x : 250 };&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>Richa</name></author><summary type="html">A little introduction on pass by value v/s pass by reference.</summary></entry></feed>

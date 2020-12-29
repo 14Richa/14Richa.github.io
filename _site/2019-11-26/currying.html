@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <title>
+    
+      Concept of Currying &middot; geekGirl
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+
+  <!-- RSS -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="geekGirl" />
+</head>
+
+
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="/">
+          <h2 class="nav-title">geekGirl</h2>
+        </a>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/">Posts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <div class="post">
+  <div class="post-info">
+    <span>Written by</span>
+    
+        Richa
+    
+
+    
+      <br>
+      <span>on&nbsp;</span><time datetime="2019-11-26 00:00:00 +0530">November 26, 2019</time>
+    
+  </div>
+
+  <h1 class="post-title">Concept of Currying</h1>
+  <div class="post-line"></div>
+
+  <p><strong>“Currying is the process of turning a function with multiple arity into a function with less arity”  — Kristina Brainwave</strong></p>
+
+<p>In simple words, currying is a method in programming in which we can transform a function with multiple arguments into a nested functions. It returns a new function that expects the next argument.</p>
+
+<p>So, currying transforms a function with multiple arguments into a series of functions each taking a single argument.</p>
+
+<p>Let’s look at a simple example:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">  <span class="kd">function</span> <span class="nx">multiply</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">,</span> <span class="nx">c</span><span class="p">)</span> <span class="p">{</span> <span class="k">return</span> <span class="nx">a</span> <span class="o">*</span> <span class="nx">b</span> <span class="o">*</span> <span class="nx">c</span><span class="p">;}</span></code></pre></figure>
+
+<p>This function takes three numbers, multiplies the numbers and returns the result.</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">  <span class="nx">multiply</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">);</span> <span class="c1">// 6</span></code></pre></figure>
+
+<p>Let’s create a curried version of the same  function and see how we would call the same function and get the same result :</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">    <span class="kd">function</span> <span class="nx">multiply</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span> <span class="p">{</span>    
+        <span class="k">return</span> <span class="p">(</span><span class="nx">b</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>        
+            <span class="k">return</span> <span class="p">(</span><span class="nx">c</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>            
+                <span class="k">return</span> <span class="nx">a</span> <span class="o">*</span> <span class="nx">b</span> <span class="o">*</span> <span class="nx">c</span>        
+                <span class="p">}</span>    
+            <span class="p">}</span>
+    <span class="p">}</span> 
+    
+    <span class="nx">multiply</span><span class="p">(</span><span class="mi">1</span><span class="p">)(</span><span class="mi">2</span><span class="p">)(</span><span class="mi">3</span><span class="p">)</span> <span class="c1">// 6</span>
+
+    </code></pre></figure>
+
+<p>Above as you can see we have turned the multiply(1,2,3) function call to multiply(1)(2)(3) multiple function calls.</p>
+
+<h4 id="is-currying-useful">Is Currying useful?</h4>
+
+<p><strong>Avoid frequently calling a function with the same argument</strong>:</p>
+
+<p>For example, we have a function to calculate the volume of a cylinder:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">    <span class="kd">function</span> <span class="nx">volume</span><span class="p">(</span><span class="nx">l</span><span class="p">,</span> <span class="nx">w</span><span class="p">,</span> <span class="nx">h</span><span class="p">)</span> <span class="p">{</span>    <span class="k">return</span> <span class="nx">l</span> <span class="o">*</span> <span class="nx">w</span> <span class="o">*</span> <span class="nx">h</span><span class="p">;}</span></code></pre></figure>
+
+<p>It happens that all the cylinders are of height 100m.
+You will see that you will repeatedly call this function with <code class="highlighter-rouge">h</code> as <code class="highlighter-rouge">100</code>:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">    <span class="nx">volume</span><span class="p">(</span><span class="mi">200</span><span class="p">,</span><span class="mi">30</span><span class="p">,</span><span class="mi">100</span><span class="p">)</span> <span class="c1">// 20030100</span>
+    <span class="nx">volume</span><span class="p">(</span><span class="mi">32</span><span class="p">,</span><span class="mi">45</span><span class="p">,</span><span class="mi">100</span><span class="p">);</span> <span class="c1">//144000l</span></code></pre></figure>
+
+<p>To resolve this, you curry the <code class="highlighter-rouge">volume</code> function(like we did earlier):</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">    <span class="kd">function</span> <span class="nx">volume</span><span class="p">(</span><span class="nx">h</span><span class="p">)</span> <span class="p">{</span>    
+        <span class="k">return</span> <span class="p">(</span><span class="nx">w</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>        
+            <span class="k">return</span> <span class="p">(</span><span class="nx">l</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>            
+                <span class="k">return</span> <span class="p">(</span><span class="nx">l</span> <span class="o">*</span> <span class="nx">w</span> <span class="o">*</span> <span class="nx">h</span><span class="p">)</span>        
+            <span class="p">}</span>    
+        <span class="p">}</span>
+     <span class="p">}</span>
+    </code></pre></figure>
+
+<p>We can define a specific function for a particular cylinder height:</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">    <span class="kd">const</span> <span class="nx">CylinderHeight</span> <span class="o">=</span> <span class="nx">volume</span><span class="p">(</span><span class="mi">100</span><span class="p">);</span>
+    <span class="nx">CylinderHeight</span><span class="p">(</span><span class="mi">200</span><span class="p">)(</span><span class="mi">30</span><span class="p">);</span> <span class="c1">// 600,000l</span></code></pre></figure>
+
+<h4 id="conclusion">Conclusion</h4>
+
+<p>Currying is a transform that makes <code class="highlighter-rouge">function(a,b,c)</code>  as <code class="highlighter-rouge">function(a)(b)(c)</code>.</p>
+
+<p>Currying allows to easily get partials function. As we’ve seen in the volume example: the universal <code class="highlighter-rouge">function log(h, w, l)</code> after currying gives us partials when called with one argument like <code class="highlighter-rouge">function(h)</code> or two arguments <code class="highlighter-rouge">function(w, l)</code>.</p>
+
+
+
+</div>
+
+<div class="pagination">
+  
+    <a href="/2020-12-15/outreachyblog1" class="left arrow">&#8592;</a>
+  
+  
+    <a href="/2019-04-18/asynchandsynch" class="right arrow">&#8594;</a>
+  
+
+  <a href="#" class="top">Top</a>
+</div>
+
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time datetime="2020-12-29 16:55:15 +0530">2020</time> Richa Sharma. Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+      </span>
+    </footer>
+  </body>
+</html>
