@@ -33,7 +33,7 @@ During this time, I also started working on refining my project proposal. I deve
 
 Overall, being involved in the community, contributing to the project, and getting familiar with the code base were crucial steps in preparing for the project. It helped me understand the organization's goals and how I could contribute to the project. I am grateful for the guidance and support of my mentors, Lukasz Gornicki and Khuda Dad Nomani.
 
-After dedicating a significant amount of time to understanding the project requirements, I was able to prepare a well-rounded [proposal for GSoC 2023] (https://docs.google.com/document/d/1-GJyBY1kngus4ljqAn_N7A3loPPdvl9sXty7kh7spAI/edit?usp=sharing).
+After dedicating a significant amount of time to understanding the project requirements, I was able to prepare a well-rounded [proposal for GSoC 2023](https://docs.google.com/document/d/1-GJyBY1kngus4ljqAn_N7A3loPPdvl9sXty7kh7spAI/edit?usp=sharing).
 
 ## The Moment of Truth
 
@@ -53,7 +53,7 @@ In addition to community engagement, I have been spending time getting more fami
 
 As the community bonding period comes to a close, I am excited to begin the actual coding period on May 29. I feel well-prepared thanks to the community bonding period and my mentors' guidance, and I am eager to start contributing to the project in a more concrete way.
 
-I was elated to discover that I had been featured in the Postman blog as one of the accepted contributors for GSoC 2023 with Postman and AsyncAPI. It was an honor to be recognized among such a talented group of individuals. You can check out the full list of accepted contributors on the Postman blog [https://blog.postman.com/postmans-projects-and-contributors-google-summer-of-code-2023/].
+I was elated to discover that I had been featured in the Postman blog as one of the accepted contributors for GSoC 2023 with Postman and AsyncAPI. It was an honor to be recognized among such a talented group of individuals. You can check out the full list of accepted contributors on the [Postman blog](https://blog.postman.com/postmans-projects-and-contributors-google-summer-of-code-2023/).
 
 
 ## Tips for Aspiring GSoC Participants
