@@ -25,7 +25,7 @@ After finding the right project, I immediately started getting involved in the A
 
 I also began familiarizing myself with the code base and documentation to better understand the project's development process and how my proposed project fits into those goals. As I got more comfortable with the code base, I started contributing by raising pull requests for small issues. I was delighted when a couple of my pull requests got merged, and I was added as a contributor to one of the repositories. The feeling of seeing my contributions being accepted and recognized was indescribable.
 
-![contributor image](https://github.com/14Richa/testga/blob/de19a87e16464094a6330e170f3d6c2158126858/contributors.png)
+![contributor image](https://raw.githubusercontent.com/14Richa/testga/main/contributors.png)
 
 Additionally, my mentors assigned me to review some pull requests, which helped me understand how to review others' code and provide constructive feedback. This experience provided me with a better understanding of how to work collaboratively with other contributors and helped me improve my coding skills.
 
