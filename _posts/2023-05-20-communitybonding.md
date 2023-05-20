@@ -4,7 +4,6 @@ title:  "Breaking into GSoC 2023 with Postman"
 author: "Richa"
 ---
 
-
 When I found out about Google Summer of Code, I knew immediately that it was something I wanted to participate in. GSoC is a program that offers contributors the opportunity to work on open source software projects, while getting paid a stipend to do so. It's a win-win situation for all involved - contributors get to gain valuable experience and skills, while open source projects benefit from the contributions of eager young minds.
 
 In this blog post, I want to share the steps I followed during the application period that helped me get selected for Google Summer of Code 2023 with Postman and AsyncAPI. As a developer interested in API development and open-source software, this is an incredible opportunity to gain real-world experience and contribute to exciting projects.
