@@ -71,4 +71,4 @@ I was elated to discover that I had been featured in the Postman blog as one of 
 
 Remember, success in the GSoC program requires more than just technical skills. Hard work, dedication, sincerity, and effective communication are all essential qualities that can help you stand out as a candidate. Make sure to communicate clearly and promptly with your mentors and the organization, keep them updated on your progress, ask for feedback, and be open to constructive criticism. Work diligently towards your goals, invest time in researching and selecting the appropriate project, engage with the community, and don't be afraid to ask for help when you need it. By doing so, you can increase your chances of being selected for the program and have a successful experience. 
 
-<p align="center">Good luck with your application!</p>
+Good luck with your application!
