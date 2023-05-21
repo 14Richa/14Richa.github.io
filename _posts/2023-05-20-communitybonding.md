@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "Breaking into GSoC 2023 with Postman"
+title:  "Breaking into GSoC 2023 with Postman and AsyncAPI Initiative"
 author: "Richa"
 ---
 
 When I found out about Google Summer of Code, I knew immediately that it was something I wanted to participate in. GSoC is a program that offers contributors the opportunity to work on open source software projects, while getting paid a stipend to do so. It's a win-win situation for all involved - contributors get to gain valuable experience and skills, while open source projects benefit from the contributions of eager young minds.
 
-In this blog post, I want to share the steps I followed during the application period that helped me get selected for Google Summer of Code 2023 with Postman and AsyncAPI. As a developer interested in API development and open-source software, this is an incredible opportunity to gain real-world experience and contribute to exciting projects.
+In this blog post, I want to share the steps I followed during the application period that helped me get selected for Google Summer of Code 2023 with Postman and AsyncAPI Initiative. As a developer interested in API development and open-source software, this is an incredible opportunity to gain real-world experience and contribute to exciting projects.
 
 I am delighted to have been selected for this program, and I am excited to share my journey with you all.
 
 ## Finding the Right Project
 
-Choosing the right project is crucial for a successful GSoC experience. For me, it was essential to select a project that aligned with my interests and skills while also challenging me to learn new things. I spent a considerable amount of time researching and analyzing various project proposals before finally zeroing in on a project that seemed like the perfect fit.
+Choosing the accurate project is crucial for a successful GSoC experience. For me, it was essential to select a project that aligned with my interests and skills while also challenging me to learn new things. I spent a considerable amount of time researching and analyzing various project proposals before finally zeroing in on a project that seemed like the perfect fit.
 
 I was thrilled to see Postman and AsyncAPI participating in GSoC 2023 when the organizations were announced on February 22, 2023, at 11:30 PM IST because I had been following them for some time. After going through the list of projects they were offering, I found one that particularly caught my attention. The project involved automating the listing of members of the technical steering committee (TSC) on the AsyncAPI website.
 
@@ -21,7 +21,7 @@ The AsyncAPI community follows an open governance model and has introduced a TSC
 
 ## Involving in the Community, Getting in Touch with Mentors, and Getting Familiar with the Code Base
 
-After finding the right project, I immediately started getting involved in the AsyncAPI community. I introduced myself to the mentors, Lukasz Gornicki and Khuda Dad Nomani, and other community members and started attending webinars and meetups. This helped me gain a better understanding of the organization and the project's goals.
+After finding the suitable project, I immediately started getting involved in the AsyncAPI community. I introduced myself to the mentors, Lukasz Gornicki and Khuda Dad Nomani, and other community members and started attending webinars and meetups. This helped me gain a better understanding of the organization and the project's goals.
 
 I also began familiarizing myself with the code base and documentation to better understand the project's development process and how my proposed project fits into those goals. As I got more comfortable with the code base, I started contributing by raising pull requests for small issues. I was delighted when a couple of my pull requests got merged, and I was added as a contributor to one of the repositories. The feeling of seeing my contributions being accepted and recognized was indescribable.
 
@@ -60,10 +60,15 @@ I was elated to discover that I had been featured in the Postman blog as one of 
 
 - Start early: The GSoC application process is a long and arduous one, so it's important to start early and give yourself plenty of time to complete everything.
 
-- Choose the right project: Invest time in researching and selecting the right project to apply for. Choose a project that aligns with your skills, interests,  and career goals.
+- Choose the right project: Invest time in researching and selecting the appropriate project to apply for. Choose a project that aligns with your skills, interests,  and career goals.
 
 - Engage with the community: Reach out to the organization and the mentors, ask questions on communication channels such as mailing lists, IRC, or Slack. Get to know the community and try to contribute in any way you can before the program starts.
 
 - Read the instructions carefully: Read and follow the application instructions carefully. Ensure you are submitting all the required documents, following the correct formatting, and meeting all the deadlines.
 
 - Don't be afraid to ask for help: If you're having trouble with a particular aspect of the application process or the project itself, don't hesitate to reach out to your mentors or the organization. They are there to help you succeed.
+
+
+Remember, success in the GSoC program requires more than just technical skills. Hard work, dedication, sincerity, and effective communication are all essential qualities that can help you stand out as a candidate. Make sure to communicate clearly and promptly with your mentors and the organization, keep them updated on your progress, ask for feedback, and be open to constructive criticism. Work diligently towards your goals, invest time in researching and selecting the appropriate project, engage with the community, and don't be afraid to ask for help when you need it. By doing so, you can increase your chances of being selected for the program and have a successful experience. 
+
+<p align="center">Good luck with your application!</p>
