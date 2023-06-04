@@ -28,4 +28,4 @@ In addition to the workflows, I started working on migrating JSON to YAML and up
 
 Overall, my first week in GSoC 2023 with Postman and Async API was an incredible learning experience. Working with an amazing team of developers, I gained valuable insights into open-source development, communication, and project management. I was impressed by the level of support and mentorship provided to help me succeed in my role.
 
-I am eager to continue contributing to the project and exploring new technologies and tools. This first week has given me a sense of confidence and motivation to further develop my skills, and I am looking forward to the challenges ahead. I appreciate the level of support and mentorship that I have receiving and I am grateful for the opportunity to be a part of a project.
+I am eager to continue contributing to the project and exploring new technologies and tools. This first week has given me a sense of confidence and motivation to further develop my skills, and I am looking forward to the challenges ahead. I appreciate the level of support and mentorship that I have been receiving and I am grateful for the opportunity to be a part of a project.
