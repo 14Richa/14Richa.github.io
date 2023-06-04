@@ -11,7 +11,8 @@ During my first week, I worked on creating flowcharts for the project using Merm
 In addition, I raised a pull request (PR) for the flowchart, which was a great learning experience. My mentors and I have weekly sync calls to discuss the agenda, and I found that this helped me to stay on track and receive feedback on my progress. You can find the PR for the flowchart here :  https://github.com/asyncapi/community/pull/719 . 
 
 In addition to the flowchart, I also contributed to the project by creating two workflows. The first workflow I created during my first week is called `Welcome New Contributor`. This [workflow](https://github.com/asyncapi/community/blob/master/.github/workflows/msg-to-new-member-pr-merged.yml) runs whenever a pull request is closed and the file "TSC_MEMBERS.json" is affected.
-I'm happy to say that this workflow was merged into the project!
+
+I'm happy to say that this workflow was merged into the project! :smiley:
 
 The purpose of this workflow is to welcome new contributors to the project and help them get started. It includes several steps that check for changes to the file and compare it to the version in the main branch. If new contributors have been added to the file, the workflow sends a welcome message to each new contributor via a GitHub comment.
 
