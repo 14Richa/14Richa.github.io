@@ -8,7 +8,7 @@ I am delighted to share my experiences during the first week of my GSoC 2023 cod
 
 During my first week, I worked on creating flowcharts for the project using Mermaid, a powerful tool that offers a wide range of benefits for developers. I was impressed with its simple and intuitive syntax, wide range of diagram types, easy integration with Markdown, customizable styling, and real-time updates. It was an excellent choice for creating visual representations of my code.
 
-In addition, I raised a pull request (PR) for the flowchart, which was a great learning experience. My mentors and I have weekly sync calls to discuss the agenda, and I found that this helped me to stay on track and receive feedback on my progress. You can find the PR for the flowchart here :  https://github.com/asyncapi/community/pull/719 . 
+In addition, I raised a pull request (PR) for the flowchart, which was a great learning experience. My mentors and I have weekly sync calls to discuss the agenda, and I found that this helped me to stay on track and receive feedback on my progress. You can find the PR for the flowchart [here](https://github.com/asyncapi/community/pull/719) . 
 
 In addition to the flowchart, I also contributed to the project by creating two workflows. The first workflow I created during my first week is called `Welcome New Contributor`. This [workflow](https://github.com/asyncapi/community/blob/master/.github/workflows/msg-to-new-member-pr-merged.yml) runs whenever a pull request is closed and the file "TSC_MEMBERS.json" is affected.
 
@@ -28,6 +28,4 @@ In addition to the workflows, I started working on migrating JSON to YAML and up
 
 Overall, my first week in GSoC 2023 with Postman and Async API was an incredible learning experience. Working with an amazing team of developers, I gained valuable insights into open-source development, communication, and project management. I was impressed by the level of support and mentorship provided to help me succeed in my role.
 
-I am eager to continue contributing to the project and exploring new technologies and tools. This first week has given me a sense of confidence and motivation to further develop my skills, and I am looking forward to the challenges ahead. I appreciate the level of support and mentorship that I have received so far, and I am grateful for the opportunity to be a part of a project that makes a positive impact on the world.
-
-I would like to express my gratitude to Postman and Async API for giving me the opportunity to participate in GSoC 2023, and to my mentors for being available to help me whenever I get stuck or encounter obstacles. Their resources and support have been invaluable, and I am honored to be a part of a project that is making a positive impact on the world. I am looking forward to continuing my collaboration with the project team, learning from my mentors, and making meaningful contributions to the project.
+I am eager to continue contributing to the project and exploring new technologies and tools. This first week has given me a sense of confidence and motivation to further develop my skills, and I am looking forward to the challenges ahead. I appreciate the level of support and mentorship that I have receiving and I am grateful for the opportunity to be a part of a project.
