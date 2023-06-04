@@ -12,7 +12,7 @@ I also raised a pull request (PR) for the flowchart, which was a great learning 
 
 In addition to the flowchart, I also contributed to the project by creating two workflows. The first workflow was to welcome new contributors, which got merged into the project. You can find the PR for this workflow [here](https://github.com/asyncapi/community/pull/717). It was a great feeling to contribute something that would help other developers get started with the project.
 
-The second workflow was of checking YAMLint of YAML files once a PR is raised. This workflow was necessary to ensure that the YAML files were formatted correctly and followedthe project's standards. You can find the PR for this workflow [here](https://github.com/asyncapi/.github/pull/238). The workflow helped to save time and made the review process more efficient.
+The second workflow was of checking YAMLint of YAML files once a PR is raised. This workflow was necessary to ensure that the YAML files were formatted correctly and followed the project's standards. You can find the PR for this workflow [here](https://github.com/asyncapi/.github/pull/238). The workflow helped to save time and made the review process more efficient.
 
 In addition to the workflows, I also raised a PR that migrates JSON to YAML and updated the website code to support YAML format. This was a significant accomplishment as it allowed for a smoother transition to YAML format and improved the user experience. You can find the PR for this contribution [here](https://github.com/asyncapi/website/pull/1722).
 
