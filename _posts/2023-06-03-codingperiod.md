@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "My First Coding Week in GSoC with Postman and Async API"
+title:  "My First Coding Week in GSoC with Postman and AsyncAPI"
 author: "Richa"
 ---
 
-I am delighted to share my experiences during the first week of my GSoC 2023 coding period with Postman and Async API. My coding period started on May 29th, 2023, and it has been an amazing community to be a part of. I am excited to contribute to the project in the coming weeks.
+I am delighted to share my experiences during the first week of my GSoC 2023 coding period with Postman and AsyncAPI. My coding period started on May 29th, 2023, and it has been an amazing community to be a part of. I am excited to contribute to the project in the coming weeks.
 
 During my first week, I worked on creating flowcharts for the project using Mermaid, a powerful tool that offers a wide range of benefits for developers. I was impressed with its simple and intuitive syntax, wide range of diagram types, easy integration with Markdown, customizable styling, and real-time updates. It was an excellent choice for creating visual representations of my code.
 
@@ -26,6 +26,6 @@ This workflow is a great way to catch errors early in the development process an
 
 In addition to the workflows, I started working on migrating JSON to YAML and updating the website code to support the new format. This was a significant undertaking as it allowed for a smoother transition to YAML and improved the user experience. As part of this effort, I raised a pull request that was focused on this migration. You can find the PR for this contribution [here](https://github.com/asyncapi/website/pull/1722).
 
-Overall, my first week in GSoC 2023 with Postman and Async API was an incredible learning experience. Working with an amazing team of developers, I gained valuable insights into open-source development, communication, and project management. I was impressed by the level of support and mentorship provided to help me succeed in my role.
+Overall, my first week in GSoC 2023 with Postman and AsyncAPI was an incredible learning experience. Working with an amazing team of developers, I gained valuable insights into open-source development, communication, and project management. I was impressed by the level of support and mentorship provided to help me succeed in my role.
 
 I am eager to continue contributing to the project and exploring new technologies and tools. This first week has given me a sense of confidence and motivation to further develop my skills, and I am looking forward to the challenges ahead. I appreciate the level of support and mentorship that I have been receiving and I am grateful for the opportunity to be a part of a project.
