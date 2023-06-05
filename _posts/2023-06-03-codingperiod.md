@@ -20,7 +20,7 @@ Through this workflow, I learned a lot about setting the head of a branch, check
 
 Another workflow I created is `YAML Lint Check`. This workflow runs on every pull request to the master branch in the ".github/workflows" directory. Its purpose is to check all the YAML files in the directory for syntax errors and validate them against the GitHub Actions workflow schema. For example, you can see this workflow in action in this [pull request](https://github.com/asyncapi/.github/pull/238).
 
-The workflow uses a tool called "yamllint" to check for syntax errors. If any errors are found, the workflow fails. It also uses the "ajv" library to validate the YAML files against the schema. If any validation errors are found, the workflow fails.
+The workflow uses a tool called [yamllint](https://yamllint.readthedocs.io/en/stable/) to check for syntax errors. If any errors are found, the workflow fails. It also uses the [ajv](https://ajv.js.org/guide/getting-started.html) library to validate the YAML files against the schema. If any validation errors are found, the workflow fails.
 
 This workflow is a great way to catch errors early in the development process and ensure that all YAML files in the ".github/workflows" directory are free from syntax errors and conform to the GitHub Actions workflow schema. It can save time and effort in the long run by preventing errors from propagating further down the development pipeline.
 
