@@ -8,7 +8,7 @@ I am delighted to share my experiences during the first week of my GSoC 2023 cod
 
 During my first week, I worked on creating flowcharts for the project using Mermaid, a powerful tool that offers a wide range of benefits for developers. I was impressed with its simple and intuitive syntax, wide range of diagram types, easy integration with Markdown, customizable styling, and real-time updates. It was an excellent choice for creating visual representations of my code.
 
-In addition, I raised a pull request (PR) for the flowchart, which was a great learning experience. My mentors and I have weekly sync calls to discuss the agenda, and I found that this helped me to stay on track and receive feedback on my progress. You can find the PR for the flowchart [here](https://github.com/asyncapi/community/pull/719) . 
+In addition, I raised a [pull request](https://github.com/asyncapi/community/pull/719)for the flowchart, which was a great learning experience. My mentors and I have weekly sync calls to discuss the agenda, and I found that this helped me to stay on track and receive feedback on my progress.
 
 In addition to the flowchart, I also contributed to the project by creating two workflows. The first workflow I created during my first week is called `Welcome New Contributor`. This [workflow](https://github.com/asyncapi/community/blob/master/.github/workflows/msg-to-new-member-pr-merged.yml) runs whenever a pull request is closed and the file "TSC_MEMBERS.json" is affected.
 
