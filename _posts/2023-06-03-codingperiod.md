@@ -18,13 +18,13 @@ The purpose of this workflow is to welcome new contributors to the project and h
 
 Through this workflow, I learned a lot about setting the head of a branch, checking for changes to files using GitHub actions, and sending notifications through GitHub comments. It was a great learning experience
 
-Another workflow I created is `YAML Lint Check`. This workflow runs on every pull request to the master branch in the ".github/workflows" directory. Its purpose is to check all the YAML files in the directory for syntax errors and validate them against the GitHub Actions workflow schema. For example, you can see this workflow in action in this [pull request](https://github.com/asyncapi/.github/pull/238).
+Another workflow I created is `YAML Lint Check`. This workflow runs on every pull request to the master branch in the ".github/workflows" directory. Its purpose is to check all the YAML files in the directory for syntax errors and validate them against the GitHub Actions workflow schema. You can see this workflow in action in this [pull request](https://github.com/asyncapi/.github/pull/238).
 
 The workflow uses a tool called [yamllint](https://yamllint.readthedocs.io/en/stable/) to check for syntax errors. If any errors are found, the workflow fails. It also uses the [ajv](https://ajv.js.org/guide/getting-started.html) library to validate the YAML files against the schema. If any validation errors are found, the workflow fails.
 
 This workflow is a great way to catch errors early in the development process and ensure that all YAML files in the ".github/workflows" directory are free from syntax errors and conform to the GitHub Actions workflow schema. It can save time and effort in the long run by preventing errors from propagating further down the development pipeline.
 
-In addition to the workflows, I started working on migrating JSON to YAML and updating the website code to support the new format. This was a significant undertaking as it allowed for a smoother transition to YAML and improved the user experience. As part of this effort, I raised a pull request that was focused on this migration. You can find the PR for this contribution [here](https://github.com/asyncapi/website/pull/1722).
+In addition to the workflows, I started working on migrating JSON to YAML and updating the website code to support the new format. This was a significant undertaking as it allowed for a smoother transition to YAML and improved the user experience. As part of this effort, I raised a [pull request](https://github.com/asyncapi/website/pull/1722) that was focused on this migration.
 
 Overall, my first week in GSoC 2023 with Postman and AsyncAPI was an incredible learning experience. Working with an amazing team of developers, I gained valuable insights into open-source development, communication, and project management. I was impressed by the level of support and mentorship provided to help me succeed in my role.
 
