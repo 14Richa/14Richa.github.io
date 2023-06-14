@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "My First Coding Week in GSoC with Postman and AsyncAPI"
+title: "My First Coding Week in GSoC with Postman and AsyncAPI"
 author: "Richa"
 ---
 
 I am delighted to share my experiences during the first week of my GSoC 2023 coding period with Postman and AsyncAPI. My coding period started on May 29th, 2023, and it has been an amazing community to be a part of. I am excited to contribute to the project in the coming weeks.
 
-During my first week, I worked on creating flowcharts for the project using Mermaid, a powerful tool that offers a wide range of benefits for developers. I was impressed with its simple and intuitive syntax, wide range of diagram types, easy integration with Markdown, customizable styling, and real-time updates. It was an excellent choice for creating visual representations of my code.
+During my first week, I worked on creating flowcharts for the project using [Mermaid](https://mermaid.js.org/intro/), a powerful tool that offers a wide range of benefits for developers. I was impressed with its simple and intuitive syntax, wide range of diagram types, easy integration with Markdown, customizable styling, and real-time updates. It was an excellent choice for creating visual representations of my code.
 
 In addition, I raised a [pull request](https://github.com/asyncapi/community/pull/719) for the flowchart, which was a great learning experience. My mentors and I have weekly sync calls to discuss the agenda, and I found that this helped me to stay on track and receive feedback on my progress.
 
