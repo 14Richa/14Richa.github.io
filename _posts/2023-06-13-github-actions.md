@@ -22,37 +22,7 @@ To create a GitHub Actions workflow, you'll need to create a YAML file in your r
 
 Here's an example of a workflow that builds and tests code on push to the main branch:
 
-```
-# This is the name of the GitHub Actions workflow. It will show up in the Actions tab of your GitHub repository
-name: Test
-
-# This workflow will run automatically when code is pushed to the 'main' branch
-# You can customize this to run on other branches or events as needed
-on:
-  push:
-    branches: [ main ]
-
-# This job will run on an Ubuntu environment
-# You can customize the operating system and version as needed
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    # These are the steps that will be run in this job
-    # Each step performs a specific action, like installing dependencies or running tests
-    steps:
-    # This step checks out your code from GitHub
-    - uses: actions/checkout@v2
-    # This step sets up Node.js on the environment
-    - name: Use Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '14.x'
-    # This step installs your project's dependencies using npm
-    - run: npm install
-    # This step runs your project's tests using npm
-    - run: npm test
-```
+![github action example](https://raw.githubusercontent.com/14Richa/testga/main/githubActionExample.png)
 
 This workflow is triggered by a push event on the main branch, and it runs a job called "build" that executes four steps:
 
