@@ -65,7 +65,8 @@ This workflow is triggered by a push event on the main branch, and it runs a job
 
 Sensitive data, like deployment keys, can be securely added to your repository's settings. This ensures they're used in workflows without being exposed.
 
-```steps:
+```
+steps:
 - name: Deploy to Netlify
   run: ./deploy.sh
   env:
