@@ -24,7 +24,7 @@ Here's an example of a workflow that builds and tests code on push to the main b
 
 ![github action example](https://raw.githubusercontent.com/14Richa/testga/main/githubActionExample.png)
 
-This workflow is triggered by a push event on the main branch, and it runs a job called "build" that executes four steps:
+Above workflow is triggered by a push event on the main branch, and it runs a job called "build" that executes four steps:
 
 - checking out the code,
 - setting up Node.js,
@@ -35,38 +35,19 @@ This workflow is triggered by a push event on the main branch, and it runs a job
 
 Sensitive data, like deployment keys, can be securely added to your repository's settings. This ensures they're used in workflows without being exposed.
 
-```
-steps:
-- name: Deploy to Netlify
-  run: ./deploy.sh
-  env:
-    NETLIFY_API_KEY: ${{ secrets.NETLIFY_API_KEY }}
-
-```
+![stepsgithubaction](https://raw.githubusercontent.com/14Richa/testga/main/stepsgithubaction.png)
 
 ### Caching Mechanisms
 
 Enhance your workflows' speed by caching dependencies or build artifacts.
 
-```
-- name: Cache node modules
-  uses: actions/cache@v2
-  with:
-    path: node_modules
-    key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
-    restore-keys: |
-      ${{ runner.OS }}-node-
-```
+![cachegithubaction](https://raw.githubusercontent.com/14Richa/testga/main/cachegithubaction.png )
 
 ### Conditional Workflows
 
 Run jobs or steps based on specific conditions, such as deployments exclusive to the main branch.
 
-```
-jobs:
-  deploy:
-    if: github.ref == 'refs/heads/main'
-```
+![jobgithubaction](https://raw.githubusercontent.com/14Richa/testga/main/jobgithubaction.png  )
 
 
 
