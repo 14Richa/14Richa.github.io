@@ -94,18 +94,18 @@ gantt
 
 - Simplicity: Mermaid's intuitive syntax makes it easy for both developers and non-developers to create diagrams without a steep learning curve.
 
-- Integration: Being a JavaScript library, Mermaid.js integrates seamlessly with Markdown editors, documentation platforms, and version control systems.
+- Integration: Being a JavaScript library, `Mermaid.js` integrates seamlessly with Markdown editors, documentation platforms, and version control systems.
 
-- Dynamic Diagrams: Mermaid.js allows you to create interactive and animated diagrams, enhancing user experience and engagement.
+- Dynamic Diagrams: `Mermaid.js` allows you to create interactive and animated diagrams, enhancing user experience and engagement.
 
 
 ### Real-world Example: Explaining a Project Using Mermaid.js
 
-Currently, I'm working with the AsyncAPI Initiative. When we kicked off the project, my mentor and I set aside specific time to work with Mermaid.js. Together, we crafted a flowchart that illustrated the different parts of the project and how they fit together. This chart became a handy tool to help us explain the project's ins and outs in a simpler way, right from the beginning.
+Currently, I'm working with the AsyncAPI Initiative. When we kicked off the project, my mentor and I set aside specific time to work with `Mermaid.js`. Together, we crafted multiple flowcharts that illustrated the different parts of the project and how they fit together. These charts became a handy tool to help us explain the project's ins and outs in a simpler way, right from the beginning.
 
-And now, if you're curious, you can take a look at how I applied Mermaid.js to explain the entire project solution using this [link](https://github.com/asyncapi/community/issues/810).
+And now, if you're curious, you can take a look at how I applied `Mermaid.js` to explain the entire project solution using this [link](https://github.com/asyncapi/community/issues/810).
 
 
 ### Conclusion
 
-Mermaid.js is a powerful and user-friendly JavaScript library  that simplifies the process of creating diagrams. By using Mermaid.js, you can easily convey intricate concepts, improve your documentation, and enhance the visual quality of your content. Whether you're a developer, technical writer, or blogger, give Mermaid.js a shot and witness how it turns your diagrams into captivating visuals.
+`Mermaid.js` is a powerful and user-friendly JavaScript library  that simplifies the process of creating diagrams. By using `Mermaid.js`, you can easily convey intricate concepts, improve your documentation, and enhance the visual quality of your content. Whether you're a developer, technical writer, or blogger, give `Mermaid.js` a shot and witness how it turns your diagrams into captivating visuals.
