@@ -45,7 +45,7 @@ Getting started with `Mermaid.js` is a breeze. You can include it in your projec
 
 **Example 1: Flowchart**
 
-```mermaid
+```
 graph TD
     A[Start] --> B[Process 1]
     B --> C[Process 2]
@@ -60,7 +60,7 @@ graph TD
 
 **Example 2: Sequence Diagram**
 
-```mermaid
+```
 sequenceDiagram
     participant Richa
     participant Bulbul
@@ -75,7 +75,7 @@ sequenceDiagram
 
 **Example 3: Gantt Chart**
 
-```mermaid
+```
 gantt
     title Project Schedule
     dateFormat  YYYY-MM-DD
