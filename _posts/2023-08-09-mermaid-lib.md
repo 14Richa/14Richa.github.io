@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mermaid.js: Charting a Course for Effortless Diagrams in Markdown"
+title: "Markdown Visualization Made Easy with Mermaid.js"
 author: "Richa"
 ---
 
@@ -94,7 +94,7 @@ gantt
 
 - Simplicity: Mermaid's intuitive syntax makes it easy for both developers and non-developers to create diagrams without a steep learning curve.
 
--  Integration: Being a JavaScript library, Mermaid.js integrates seamlessly with Markdown editors, documentation platforms, and version control systems.
+- Integration: Being a JavaScript library, Mermaid.js integrates seamlessly with Markdown editors, documentation platforms, and version control systems.
 
 - Dynamic Diagrams: Mermaid.js allows you to create interactive and animated diagrams, enhancing user experience and engagement.
 
