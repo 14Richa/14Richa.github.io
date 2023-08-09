@@ -10,7 +10,7 @@ In this blog post, I'll share my experience with `Mermaid.js` and how it charted
 
 ### What is Mermaid.js? 
 
-**Mermaid.js** is an open-source JavaScript library that makes creating diagrams easy for anyone working with Markdown. Whether you're writing technical docs, blog posts, or need to show data visually, Mermaid.js lets you create diagrams using a simple and easy-to-understand syntax that fits well with Markdown.
+**Mermaid.js** is an open-source JavaScript library that makes creating diagrams easy for anyone working with Markdown. Whether you're writing technical docs, blog posts, or need to show data visually, `Mermaid.js` lets you create diagrams using a simple and easy-to-understand syntax that fits well with Markdown.
 
 ### Mermaid Syntax
 
