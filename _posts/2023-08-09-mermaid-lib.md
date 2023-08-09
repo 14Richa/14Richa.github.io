@@ -103,7 +103,7 @@ gantt
 
 Currently, I'm working with the AsyncAPI Initiative. When we kicked off the project, my mentor and I set aside specific time to work with Mermaid.js. Together, we crafted a flowchart that illustrated the different parts of the project and how they fit together. This chart became a handy tool to help us explain the project's ins and outs in a simpler way, right from the beginning.
 
-And now, if you're curious, you can take a look at how I applied Mermaid.js to explain the entire project solution using this [link] (https://github.com/asyncapi/community/issues/810).
+And now, if you're curious, you can take a look at how I applied Mermaid.js to explain the entire project solution using this [link](https://github.com/asyncapi/community/issues/810).
 
 
 ### Conclusion
