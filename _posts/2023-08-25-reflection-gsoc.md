@@ -8,7 +8,7 @@ In this blog post, I want to share what I did during Google Summer of Code 2023 
 
 During this program, I had the privilege of working with some amazing people who really helped me. I want to give a big shoutout to Lukasz Gornicki, KhudaDad Nomani, and Saurav Kumar for being great mentors. They guided me, supported me, and kept me motivated throughout the program.
 
-Being a part of the AsyncAPI community has been a fantastic learning experience for me. I've gained so much knowledge, and working with this awesome group of people has been a truly memorable experience. In the upcoming sections of this blog post, I'll share the specific projects and achievements that made my Google Summer of Code 2023 journey so special.
+Being a part of the AsyncAPI community has been a fantastic learning experience for me. I've gained so much knowledge, and working with this awesome group of people has been a truly memorable experience. In the upcoming sections of this blog post, I'll share the specific achievements that made my Google Summer of Code 2023 journey so special.
 
 ### Project Overview: [Automate paperwork around project governance](https://github.com/asyncapi/.github/issues/210)
 
