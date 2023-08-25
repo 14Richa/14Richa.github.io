@@ -16,7 +16,7 @@ The goal of my project was to automate the processes around project governance. 
 
 ### Project Layout and Workflows
 
-Before we get into the details of what I achieved, let's start with a visual overview of our project structure and workflows. You can see the full project layout and workflows in this GitHub issue: https://github.com/asyncapi/community/issues/810
+Before we get into the details of what I achieved, let's start with a visual overview of our project structure and workflows. You can see the full project layout and workflows in this [GitHub issue](https://github.com/asyncapi/community/issues/810)
 
 We've used [Mermaid.js](https://14richa.github.io/2023-08-09/mermaid-lib) to create easy-to-understand diagrams that act like maps, showing how our project is organized and how different tasks are automated. These diagrams help us see how different parts of our project work together seamlessly.
 
