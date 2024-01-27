@@ -58,4 +58,4 @@ Result:
 ![example mage](https://raw.githubusercontent.com/14Richa/testga/main/jupyternotebookresult.png)
 
 
-> Find a comprehensive demonstration of Jupyter notebook extensions in action within the project repository: [Patient-Readmission-Analysis](https://github.com/14Richa/Patient-Readmission-Analysis), showcasing the practical utilization of these extensions in real healthcare data analysis.
+*Find a comprehensive demonstration of Jupyter notebook extensions in action within the project repository: [Patient-Readmission-Analysis](https://github.com/14Richa/Patient-Readmission-Analysis), showcasing the practical utilization of these extensions in real healthcare data analysis.*
