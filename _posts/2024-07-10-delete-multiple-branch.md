@@ -56,12 +56,12 @@ To delete all branches that have been merged into the current branch, use the fo
 
 ### Deleting Remote Branches
 
-Deleting branches on the remote server works a bit differently. Here's how you can do it:
-
-#### Using Git Push Command
+Deleting branches on the remote server is done in a different way. Here’s how you can use the `git push` command to do it:
 
 
-**Delete Branches :**  Use the following command to delete remote branches:
+**Delete Branches :**
+
+Use the following command to delete remote branches:
 
 ```shell
 git push origin --delete branch_name
