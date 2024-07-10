@@ -23,9 +23,9 @@ Before getting into the how, let’s briefly touch on why we should delete old b
 
 To delete multiple local branches, you can use the following methods:
 
-#### Method 1: Using Git Branch Command
+#### Using Git Branch Command
 
-**1. List Branches**
+**Step 1. List Branches**
 
 List all the branches to identify which ones you want to delete.
 
@@ -33,7 +33,7 @@ List all the branches to identify which ones you want to delete.
 git branch
 ```
 
-**2. Delete Branches**
+**Step 2. Delete Branches**
 
 Use a loop in your shell to delete the branches. For example, to delete branches named feature1, feature2, and feature3 :
 
@@ -46,7 +46,7 @@ done
 > Note : The `-d` option will delete the branch only if it has been fully merged. To force delete, use `-D`.
 
 
-#### 3. Delete All Merged Branches
+**Delete All Merged Branches**
 
 To delete all branches that have been merged into the current branch, use the following command :
 
@@ -58,7 +58,7 @@ To delete all branches that have been merged into the current branch, use the fo
 
 Deleting branches on the remote server works a bit differently. Here's how you can do it:
 
-#### Method 1: Using Git Push Command
+#### Using Git Push Command
 
 
 **Delete Branches :**  Use the following command to delete remote branches:
