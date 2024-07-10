@@ -25,7 +25,7 @@ To delete multiple local branches, you can use the following methods:
 
 #### Method 1: Using Git Branch Command
 
-##### 1. List Branches:
+**1. List Branches**
 
 List all the branches to identify which ones you want to delete.
 
@@ -33,7 +33,7 @@ List all the branches to identify which ones you want to delete.
 git branch
 ```
 
-##### 2. Delete Branches
+**2. Delete Branches**
 
 Use a loop in your shell to delete the branches. For example, to delete branches named feature1, feature2, and feature3 :
 
