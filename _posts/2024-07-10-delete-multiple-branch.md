@@ -34,7 +34,7 @@ git branch
 
 **Step 2: Delete Branches**
 
-Use a loop in your shell to delete the branches. For example, to delete branches named feature1, feature2, and feature3 :
+Use a loop in your shell to delete the branches. For example, to delete branches named `feature1`, `feature2`, and `feature3` :
 
 ```shell
 for branch in feature1 feature2 feature3; do
