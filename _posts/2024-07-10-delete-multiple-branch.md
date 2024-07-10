@@ -32,7 +32,16 @@ List all the branches to identify which ones you want to delete.
 git branch
 ```
 
-**Step 2: Delete Branches**
+**Step 2: Delete a Single Branch**
+
+To delete a single branch locally:
+
+```shell
+
+git branch -d branch_name
+```
+
+**Step 3: Delete Multiple Branches**
 
 Use a loop in your shell to delete the branches. For example, to delete branches named `feature1`, `feature2`, and `feature3` :
 
