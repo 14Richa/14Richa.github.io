@@ -61,7 +61,7 @@ Deleting branches on the remote server works a bit differently. Here's how you c
 #### Method 1: Using Git Push Command
 
 
-**Delete Branches : **  Use the following command to delete remote branches:
+**Delete Branches :**  Use the following command to delete remote branches:
 
 ```shell
 git push origin --delete branch_name
