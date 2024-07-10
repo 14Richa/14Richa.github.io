@@ -10,7 +10,7 @@ I recently came across a problem during my summer thesis project: `managing an i
 In this blog post, I want to guide you through the process of deleting multiple branches in Git, both locally and remotely, to help you keep your repository organized and efficient.
 
 
-### Why Delete Old Branches?
+## Why Delete Old Branches?
 
 Before getting into the how, let’s briefly touch on why we should delete old branches:
 
@@ -19,7 +19,7 @@ Before getting into the how, let’s briefly touch on why we should delete old b
 3. _Avoid Confusion_ : Prevents accidental work on outdated branches.
 4. _Collaboration_ : Keeps the repository clean for team members.
 
-### **Deleting Local Branches**
+## **Deleting Local Branches**
 
 To delete multiple local branches, you can use the following methods:
 
@@ -45,7 +45,7 @@ done
 > Note : The `-d` option will delete the branch only if it has been fully merged. To force delete, use `-D`.
 
 
-#### Delete All Merged Branches
+### Delete All Merged Branches
 
 To delete all branches that have been merged into the current branch, use the following command :
 
@@ -53,7 +53,7 @@ To delete all branches that have been merged into the current branch, use the fo
  git branch --merged | grep -v '\*' | xargs -n 1 git branch -d
 ```
 
-### **Deleting Remote Branches**
+## **Deleting Remote Branches**
 
 Deleting branches on the remote server is done in a different way. Here’s how you can use the `git push` command to do it:
 
@@ -82,7 +82,7 @@ If you have a list of branches in a file (e.g., `branches.txt`), you can delete 
 cat branches.txt | xargs -n 1 git push origin --delete
 ```
 
-### Combining Local and Remote Deletion
+## Combining Local and Remote Deletion
 
 To make the cleanup process more efficient, you can combine the deletion of both local and remote branches. This approach helps ensure a more organized repository.
 
@@ -96,11 +96,11 @@ branches=("branch1" "branch2" "branch3")
 done
 ```
 
-###  Using Git Tools
+##  Using Git Tools
 
 Tools such as [GitKraken](https://www.gitkraken.com/), [SourceTree](https://www.sourcetreeapp.com/), or integrated Git tools in IDEs like VSCode typically offer graphical interfaces for branch management. These interfaces simplify the process of selecting and deleting multiple branches.
 
-### Conclusion
+## Conclusion
 
 Regularly removing old branches in Git is crucial for maintaining a clean and efficient repository, whether you're working solo or in a team. These practices ensure your workflow remains organized. By leveraging the commands and scripts provided in this guide, you can efficiently delete multiple branches, both locally and remotely, ensuring your Git repository stays tidy.
 
