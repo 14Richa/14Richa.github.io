@@ -23,7 +23,6 @@ Before getting into the how, let’s briefly touch on why we should delete old b
 
 To delete multiple local branches, you can use the following methods:
 
-#### Using Git Branch Command
 
 **Step 1. List Branches**
 
