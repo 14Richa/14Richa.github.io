@@ -142,7 +142,7 @@ This command starts a local web server and opens the default web browser to disp
 
 Below is a screenshot of the app interface:
 
-![alt text](image.png)
+![alt text](https://raw.githubusercontent.com/14Richa/testga/main/Elexonsolarforecast.png)
 
 
 ## Deploying the App Publicly
