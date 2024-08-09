@@ -142,8 +142,6 @@ This command starts a local web server and opens the default web browser to disp
 
 Below is a screenshot of the app interface:
 
-alt text
-
 ![alt text](image.png)
 
 
