@@ -13,4 +13,4 @@ Through this blog, I aim to share my experiences, insights, and reflections on t
 
 ## Reach out
 Feel free to reach out to me at richasharma1496@gmail.com.
-Thanks for reading!
+Thanks for reading! 😀💻💫🌟
