@@ -5,12 +5,11 @@ author: "Richa"
 permalink: /about/
 ---
 
-Hello World!	
+**Hello World!**
 
-My name is Richa, and I am a budding web developer and self-taught programmer with over four years of experience in the field. Originally from Delhi, I discovered my passion for tech while studying business administration and decided to pursue it further by moving to Bangalore, the Silicon Valley of India. As a software engineer, I have had the opportunity to work on a variety of projects and develop my skills in programming, web development, and software design. Currently, I'm expanding my knowledge and exploring new horizons in the field as I pursue my Master's in Computer Science from the University of the Arts London, London.
+My name is Richa, and I am a web developer and self-taught programmer with over four years of experience in the field. Originally from Delhi, I discovered my passion for technology while studying Business Administration. This blend of business insight and technical skills inspired me to move to Bangalore, the Silicon Valley of India, to dive deeper into the world of software engineering. With a strong foundation in both business and technology, I have gained hands-on experience in programming, web development, data analysis, and project management. I’ve had the opportunity to work on a range of projects, allowing me to refine my skills and tackle complex challenges. Currently, I am further expanding my expertise by pursuing a Master’s in Computer Science at the Create Computing Institute, University of the Arts London.
 
-Through this blog, I hope to share my experiences, insights, and thoughts on all things tech-related. Whether you're a fellow developer, a tech enthusiast, or simply curious about the world of technology, I invite you to join me on this journey as we explore the exciting and ever-changing world of tech together.
-
+Through this blog, I aim to share my experiences, insights, and reflections on the intersection of technology, business, and data. Whether you’re a fellow developer, a tech enthusiast, or simply curious about the dynamic world of tech, I invite you to join me as we explore and navigate this exciting field together.
 
 ## Reach out
 Feel free to reach out to me at richasharma1496@gmail.com.
