@@ -16,11 +16,13 @@ Streamlit is a Python library designed to simplify the creation of web applicati
 
 1. **Simplicity and Speed:** Streamlit’s syntax is straightforward, allowing you to build applications with minimal code.
 
-2. **Real-Time Interactivity:** The framework supports real-time updates, meaning that any changes in the input or data are instantly reflected in the app. This feature enhances the user experience by allowing users to interact with the data seamlessly.
+2. **Customizable Widgets:** The library offers a range of built-in widgets such as sliders, buttons, and file uploaders, which can be customized to fit the needs of your application.
 
 3. **Integration with Data Science Libraries:** Streamlit integrates effortlessly with popular libraries like Pandas, Matplotlib, and Plotly. This compatibility made it easy to incorporate various data visualization techniques and charts into the app.
 
-4. **Customizable Widgets:** The library offers a range of built-in widgets such as sliders, buttons, and file uploaders, which can be customized to fit the needs of your application.
+4. **Real-Time Interactivity:** The framework supports real-time updates, meaning that any changes in the input or data are instantly reflected in the app. This feature enhances the user experience by allowing users to interact with the data seamlessly.
+
+
 
 
 ## Building the Elexonoy Dashboard with Streamlit
