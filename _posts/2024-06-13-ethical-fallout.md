@@ -4,8 +4,6 @@ title:  "The Ethical Fallout of Amazon’s AI Hiring Tool"
 author: "Richa"
 ---
 
-## Introduction
-
 In 2018, Amazon, a major company in online sales and cloud computing, started using an
 artificial intelligence system for hiring new employees. The goal was to use advanced tech-
 nology to improve the hiring process. However, using AI for hiring also raised concerns
