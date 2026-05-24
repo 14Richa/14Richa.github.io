@@ -120,9 +120,8 @@ agent = Agent(
 )
 ```
 
-What the agent then does — on its own — is decide *which* tools to call, in *what order*, based on what it learns along the way. You don't hardcode the logic. The agent reasons through it.
+What the agent then does - on its own - is decide *which* tools to call, in *what order*, based on what it learns along the way. You don't hardcode the logic. The agent reasons through it.
 
----
 
 ## The Moment It Clicked
 
@@ -153,7 +152,6 @@ Its output looked like this:
 
 The room got quiet for a second. That's the kind of analysis that usually takes a network engineer 15-20 minutes to piece together. The agent did it in seconds.
 
----
 
 ## What Surprised Us
 
@@ -165,7 +163,6 @@ The room got quiet for a second. That's the kind of analysis that usually takes 
 
 **It handled ambiguity better than rule-based systems.** Traditional alert correlation systems need explicit rules: *if X and Y occur within Z minutes, flag as related.* The agent could reason about novel combinations it had never seen before, which felt genuinely different.
 
----
 
 ## What We'd Build Next
 
