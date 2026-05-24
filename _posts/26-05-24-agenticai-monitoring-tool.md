@@ -4,19 +4,22 @@ title: "Building a Network Ops AI Agent with Google ADK in One Day"
 author: "Richa"
 ---
 
-It started with a calendar invite: **"Google ADK Hackathon — Hosted by Google."**
+It started with a calendar invite: "Google ADK Hackathon - All Night."
 
-Our Hyderabad office was buzzing that morning in a way it usually isn't on a regular workday. Google's team had come in to run a hands-on hackathon around their Agent Development Kit (ADK) and Gemini. Tables were rearranged, laptops were out, and there was that particular energy you only get when a deadline is measured in hours, not sprints.
+The Google team was joining live from our Denver office - big leaders, on a call, watching. From Hyderabad, that meant one thing: we were doing this through the night.
 
-Our team of four huddled up and asked the same question every hackathon team asks: *what problem do we actually care about solving?*
+By 9 PM our office was a different place. The usual hum of meetings and standups was gone. It was just our team of four, laptops open, empty coffee cups slowly accumulating, and a Google Meet window in the corner showing Denver. That particular mix of exhaustion and adrenaline that only a night hackathon produces - you either know it or you don't.
 
+The stakes felt real. This wasn't an internal demo for a small team. Senior leaders were watching from across the world, and we had until morning to show them something worth staying up for.
+
+Our team huddled up and asked the question every hackathon team asks: what problem do we actually care about solving?
 We didn't have to think long.
 
-Anyone who's worked in an office with network infrastructure knows the pain. Monitoring tools like **ManageEngine** generate a *constant* stream of alerts. High latency here. Packet loss there. An interface going down at 2 AM. Most of these alerts get triaged by a network engineer who opens three dashboards, cross-references timestamps, checks recent changes, and decides: *is this a real problem or just noise?*
-
+Anyone who's worked in an office with network infrastructure knows the pain. Monitoring tools like ManageEngine, Statseeker, and SD-WAN vManage each generate their own stream of alerts — high latency here, packet loss there, an interface going down at 2 AM. And the tricky part? A single real incident can trigger alerts across all three tools at once, leaving an engineer jumping between dashboards to piece together what's actually happening.
 That triage process? It's repetitive, mentally taxing, and it happens dozens of times a day.
 
 We thought: what if an AI agent could do the first pass?
+
 
 ## What We Built
 
@@ -28,6 +31,7 @@ By the end of the hackathon, we had a working agent — let's call it **NetSense
 - **Correlate related alerts** to identify whether something is a one-off or a known recurring issue
 - **Generate a plain-English summary** of what's happening and how urgent it is
 - **Suggest solutions** based on what actually worked the last time this happened
+
 That last point is what made it genuinely useful. Instead of an engineer staring at 47 alerts and deciding where to start, NetSense would hand them a prioritized briefing — *and* tell them what resolved the same issue six months ago.
 
 Think of it as a first-responder that never sleeps, never gets alert fatigue, and has a perfect memory of everything that's ever gone wrong on your network.
@@ -118,9 +122,8 @@ agent = Agent(
 )
 ```
 
-What the agent then does — on its own — is decide *which* tools to call, in *what order*, based on what it learns along the way. You don't hardcode the logic. The agent reasons through it.
+What the agent then does - on its own - is decide *which* tools to call, in *what order*, based on what it learns along the way. You don't hardcode the logic. The agent reasons through it.
 
----
 
 ## The Moment It Clicked
 
@@ -151,7 +154,6 @@ Its output looked like this:
 
 The room got quiet for a second. That's the kind of analysis that usually takes a network engineer 15-20 minutes to piece together. The agent did it in seconds.
 
----
 
 ## What Surprised Us
 
@@ -163,7 +165,6 @@ The room got quiet for a second. That's the kind of analysis that usually takes 
 
 **It handled ambiguity better than rule-based systems.** Traditional alert correlation systems need explicit rules: *if X and Y occur within Z minutes, flag as related.* The agent could reason about novel combinations it had never seen before, which felt genuinely different.
 
----
 
 ## What We'd Build Next
 
