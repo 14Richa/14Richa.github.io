@@ -4,7 +4,7 @@ title: "Building a Network Ops AI Agent with Google ADK in One Day"
 author: "Richa"
 ---
 
-It started with a calendar invite: "Google ADK Hackathon — All Night."
+It started with a calendar invite: "Google ADK Hackathon - All Night."
 
 The Google team was joining live from our Denver office - big leaders, on a call, watching. From Hyderabad, that meant one thing: we were doing this through the night.
 
