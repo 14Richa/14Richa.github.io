@@ -23,7 +23,7 @@ We thought: what if an AI agent could do the first pass?
 
 ## What We Built
 
-By the end of the hackathon, we had a working agent — let's call it **NetSense** — that could:
+By the end of the hackathon, we had a working agent - let's call it **NetSense** - that could:
 
 - **Ingest raw alerts** from ManageEngine in real time
 - **Understand the context** behind each alert (what device, what metric, what threshold was crossed)
@@ -32,7 +32,7 @@ By the end of the hackathon, we had a working agent — let's call it **NetSense
 - **Generate a plain-English summary** of what's happening and how urgent it is
 - **Suggest solutions** based on what actually worked the last time this happened
 
-That last point is what made it genuinely useful. Instead of an engineer staring at 47 alerts and deciding where to start, NetSense would hand them a prioritized briefing — *and* tell them what resolved the same issue six months ago.
+That last point is what made it genuinely useful. Instead of an engineer staring at 47 alerts and deciding where to start, NetSense would hand them a prioritized briefing - *and* tell them what resolved the same issue six months ago.
 
 Think of it as a first-responder that never sleeps, never gets alert fatigue, and has a perfect memory of everything that's ever gone wrong on your network.
 
@@ -45,11 +45,11 @@ Without history, the agent could only describe what's happening *right now*. Wit
 - *"Has this device had latency issues before?"*
 - *"Is packet loss on this switch a recurring Monday morning pattern?"*
 - *"What did the team do last time this exact alert fired?"*
-This turned NetSense from a smart summarizer into something closer to an **institutional memory** — one that doesn't leave when engineers switch teams or change jobs.
+This turned NetSense from a smart summarizer into something closer to an **institutional memory** - one that doesn't leave when engineers switch teams or change jobs.
 
 ## Enter Google ADK
 
-Google's **Agent Development Kit (ADK)** is a framework for building multi-step AI agents powered by Gemini. What makes it interesting is that it's not just a wrapper around an LLM — it gives you a structured way to define:
+Google's **Agent Development Kit (ADK)** is a framework for building multi-step AI agents powered by Gemini. What makes it interesting is that it's not just a wrapper around an LLM - it gives you a structured way to define:
 
 - **Tools** your agent can call (functions, APIs, data sources)
 - **A reasoning loop** where the agent decides what to do next
@@ -170,16 +170,16 @@ The room got quiet for a second. That's the kind of analysis that usually takes 
 
 We barely scratched the surface in a single hackathon day. The natural next steps would be:
 
-- **Slack / Teams integration** — agent posts briefings directly to an on-call channel
-- **Feedback loop** — engineers mark summaries as accurate/inaccurate, improving the agent over time
-- **Auto-escalation** — for critical alerts, the agent drafts a ticket or pages the right person automatically
-- **Multi-source ingestion** — pulling from ManageEngine, Statseeker, and SD-WAN vManage simultaneously for a unified view across the network stack
+- **Teams integration** : agent posts briefings directly to an on-call channel
+- **Feedback loop** : engineers mark summaries as accurate/inaccurate, improving the agent over time
+- **Auto-escalation** : for critical alerts, the agent drafts a ticket or pages the right person automatically
+- **Multi-source ingestion** : pulling from ManageEngine, Statseeker, and SD-WAN vManage simultaneously for a unified view across the network stack
 
 ## The Bigger Picture
 
-What struck me most about this hackathon wasn't the technology — it was how quickly a small team could build something *genuinely useful* with Google ADK and Gemini.
+What struck me most about this hackathon wasn't the technology - it was how quickly a small team could build something *genuinely useful* with Google ADK and Gemini.
 
-We're at a point where the gap between "interesting demo" and "solves a real problem" is narrowing fast. Network alert triage is just one example. The same pattern — agent ingests noisy data, uses tools to gather context, reasons about root cause, surfaces a clear recommendation — applies to security operations, customer support, IT helpdesk, financial monitoring, and more.
+We're at a point where the gap between "interesting demo" and "solves a real problem" is narrowing fast. Network alert triage is just one example. The same pattern - agent ingests noisy data, uses tools to gather context, reasons about root cause, surfaces a clear recommendation - applies to security operations, customer support, IT helpdesk, financial monitoring, and more.
 
 The agents aren't replacing the experts. They're doing the exhausting first pass so the experts can focus on the decisions that actually need human judgment.
 
