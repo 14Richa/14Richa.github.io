@@ -20,6 +20,7 @@ That triage process? It's repetitive, mentally taxing, and it happens dozens of 
 
 We thought: what if an AI agent could do the first pass?
 
+
 ## What We Built
 
 By the end of the hackathon, we had a working agent — let's call it **NetSense** — that could:
@@ -30,6 +31,7 @@ By the end of the hackathon, we had a working agent — let's call it **NetSense
 - **Correlate related alerts** to identify whether something is a one-off or a known recurring issue
 - **Generate a plain-English summary** of what's happening and how urgent it is
 - **Suggest solutions** based on what actually worked the last time this happened
+
 That last point is what made it genuinely useful. Instead of an engineer staring at 47 alerts and deciding where to start, NetSense would hand them a prioritized briefing — *and* tell them what resolved the same issue six months ago.
 
 Think of it as a first-responder that never sleeps, never gets alert fatigue, and has a perfect memory of everything that's ever gone wrong on your network.
