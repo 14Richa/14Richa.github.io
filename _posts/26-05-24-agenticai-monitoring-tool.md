@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How an AI Agent Killed Our Alert Storms."
+title: "How an AI Agent Killed Our Alert Storms"
 author: "Richa"
 ---
 
@@ -15,7 +15,7 @@ The stakes felt real. This wasn't an internal demo for a small team. Senior lead
 Our team huddled up and asked the question every hackathon team asks: what problem do we actually care about solving?
 We didn't have to think long.
 
-Anyone who's worked in an office with network infrastructure knows the pain. Monitoring tools like ManageEngine, Statseeker, and SD-WAN vManage each generate their own stream of alerts — high latency here, packet loss there, an interface going down at 2 AM. And the tricky part? A single real incident can trigger alerts across all three tools at once, leaving an engineer jumping between dashboards to piece together what's actually happening.
+Anyone who's worked in an office with network infrastructure knows the pain. Monitoring tools like ManageEngine, Statseeker, and SD-WAN vManage each generate their own stream of alerts - high latency here, packet loss there, an interface going down at 2 AM. And the tricky part? A single real incident can trigger alerts across all three tools at once, leaving an engineer jumping between dashboards to piece together what's actually happening.
 That triage process? It's repetitive, mentally taxing, and it happens dozens of times a day.
 
 We thought: what if an AI agent could do the first pass?
@@ -65,7 +65,7 @@ from google.cloud import bigquery
 
 def get_alert_history(device_id: str, hours: int = 24) -> dict:
     """Fetch recent alerts for a specific network device."""
-    # In production, this calls your ManageEngine API
+    # In production, this calls ManageEngine API
     return {
         "device_id": device_id,
         "alerts": [
@@ -148,7 +148,7 @@ Its output looked like this:
 >
 > **Historical context:** This device has had 3 similar latency spikes in the past 6 months — all on Monday mornings, all resolved by restarting the uplink interface. Last occurrence: March 11, 2026. Resolved in 22 minutes by the network team.
 >
-> **Urgency:** High — affects conference room connectivity during business hours.
+> **Urgency:** High affects conference room connectivity during business hours.
 >
 > **Suggested fix:** Restart uplink interface on core-switch-floor3 (worked in all 3 prior incidents). If issue persists beyond 15 minutes, escalate to network team lead and check for firmware updates flagged in the February maintenance log.
 
@@ -157,13 +157,13 @@ The room got quiet for a second. That's the kind of analysis that usually takes 
 
 ## What Surprised Us
 
-**The agent was better at correlation than we expected.** We assumed we'd need to hand-hold it with explicit logic. Instead, Gemini's reasoning handled the "connect the dots" work naturally once it had the right tools and context.
+- **The agent was better at correlation than we expected.** We assumed we'd need to hand-hold it with explicit logic. Instead, Gemini's reasoning handled the "connect the dots" work naturally once it had the right tools and context.
 
-**Prompt engineering still matters — a lot.** The system prompt we gave the agent shaped everything. Early versions were too verbose, too cautious, or missed the urgency dimension entirely. Getting the tone and structure of the output right took as much iteration as the code itself.
+- **Prompt engineering still matters — a lot.** The system prompt we gave the agent shaped everything. Early versions were too verbose, too cautious, or missed the urgency dimension entirely. Getting the tone and structure of the output right took as much iteration as the code itself.
 
-**Tool design is the real architecture.** The most important decisions weren't about the agent — they were about what tools we gave it and what data those tools returned. Garbage in, garbage out still applies. Well-structured tool outputs made the agent dramatically smarter.
+- **Tool design is the real architecture.** The most important decisions weren't about the agent — they were about what tools we gave it and what data those tools returned. Garbage in, garbage out still applies. Well-structured tool outputs made the agent dramatically smarter.
 
-**It handled ambiguity better than rule-based systems.** Traditional alert correlation systems need explicit rules: *if X and Y occur within Z minutes, flag as related.* The agent could reason about novel combinations it had never seen before, which felt genuinely different.
+- **It handled ambiguity better than rule-based systems.** Traditional alert correlation systems need explicit rules: *if X and Y occur within Z minutes, flag as related.* The agent could reason about novel combinations it had never seen before, which felt genuinely different.
 
 
 ## What We'd Build Next
