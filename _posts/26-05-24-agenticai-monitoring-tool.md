@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a Network Ops AI Agent with Google ADK in One Day"
+title: "How an AI Agent Killed Our Alert Storms."
 author: "Richa"
 ---
 
